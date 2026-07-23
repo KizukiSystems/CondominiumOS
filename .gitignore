@@ -1,0 +1,19 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+
+# Secrets: keys live in .env, never committed (CLAUDE.md rule 5)
+.env
+.env.*
+!.env.example
+
+# LANE B: real data never enters this repo (CLAUDE.md rules 1 and 5).
+# data/ holds local, uncommitted working files only; the README explains why.
+data/*
+!data/README.md
+
+# Lane B run logs, never committed
+runs/

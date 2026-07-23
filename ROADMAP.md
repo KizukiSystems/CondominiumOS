@@ -51,6 +51,20 @@ Move -1 → 0 only when all three hold:
 
 Work-package decomposition lives in [WORKPLAN.md](WORKPLAN.md).
 
+### 3a · Gate-invariant pre-build queue (ratified by Tets 2026-07-23)
+
+Work that survives every Friday outcome because it follows from the §4 invariants, not the wedge. Sequenced; each item starts on Tets's go after review of the previous.
+
+| Pre | Substance | Status |
+| :--- | :--- | :--- |
+| 1 | Repo scaffold (WP-1.1 core): stack, tooling, lane separation, directory layout | `[built 2026-07-23 — awaiting Tets's review]` |
+| 2 | LLM adapter `src/llm/adapter.ts`: one interface, Gemini default, Anthropic drop-in, model as config | `[queued]` |
+| 3 | Citation engine + coverage test: cite or emit `[uncited — needs source]`; uncited output fails the build | `[queued]` |
+| 4 | Universal manual ingest: dropped files (.txt/.md/.eml/.pdf) → source-document model | `[queued]` |
+| 5 | UI kit port from `Concierge-OG` with the SALVAGE §4 repair rules applied | `[queued — ~90% gate-safe; Agenda.tsx structure assumes board prep]` |
+
+Deliberately NOT in this queue (waits for the gate): the Maple Court corpus (WP-1.2) and agenda-item semantics, which encode the wedge.
+
 ## 4 · Standing invariants (enforced non-goals, Build Spec §2)
 
 - No board/resident-facing portal (Phase 2+; separate Spawn-vs-Fold decision)

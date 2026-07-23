@@ -69,6 +69,23 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
   3. Friday-gate pointers from Shift 001 stand.
 
+## Shift 004 — 2026-07-23 · Claude Code (branch `main`; same conversation, new work block: first code in the repo)
+
+- **Scope requested:** Tets asked what could be built that no Friday outcome invalidates; ratified building item 1 (repo scaffold) with review after, and putting items 2-5 on the roadmap as a queue.
+- **Work completed** `[grounded — verified this session]`:
+  - WP-1.1 core scaffold at repo root: package.json (React 19, Vite 6, Tailwind 4, TS strict), `src/ui/` placeholder screen in the quiet-confidence theme, `src/llm|ingest|classify|agenda/` stub READMEs stating each directory's contract, `spec/`, `fixtures/maple-court/` (corpus rules), `data/README.md` (Lane B rules), `.env.example`, `.gitignore` enforcing lane separation.
+  - Verified: clean cold install; `tsc --noEmit` passes; production build passes; `npm run demo` dev server starts; canary test confirms `data/*`, `runs/`, `.env` are ignored while `data/README.md` stays committed.
+  - ROADMAP §3a added: gate-invariant pre-build queue (1 built, 2-5 queued: adapter, citation engine + coverage test, universal ingest, UI kit port).
+- **Decisions proposed vs ratified:**
+  - Ratified by Tets: build pre-build item 1 now; queue items 2-5 on the roadmap; review before item 2 starts.
+  - Proposed, pending: the scaffold itself awaits Tets's review; `src/agenda/` keeps its wedge name until the gate (renames freely).
+- **Discoveries / flags:** none; no canon conflicts. No LLM calls exist in the repo yet; the citation invariant binds from the first generated claim (pre-build item 3 exists to enforce it).
+- **Open items and blockers:** unchanged from Shift 003 addendum 2. The gate meeting (Fri 2026-07-24) remains the critical path; Lane B closed.
+- **Next-shift pointers:**
+  1. Reconcile against `git log` (MET-009); canon line is `main`.
+  2. Tets reviews the scaffold; on his go, pre-build item 2 (LLM adapter).
+  3. After the gate: feed outcomes into ROADMAP §2 and the ledger; corpus (WP-1.2) and agenda semantics unlock only then.
+
 ## Shift 003 addendum 2 — 2026-07-23 · same session (pre-gate intel from Tets)
 
 - Tets provided pre-meeting answers by voice (transcript partly garbled; interpretation played back for correction). Ledger #1-#6 updated with tagged notes: wedge strongly signaled by Isaac's own past statements `[assumption]`; stack = Gmail + Drive + likely Asana `[assumption — Tets recall]`; ingest stays universal/manual for v0.x (ratified, matches existing invariant); CMG kept clear, personal-use posture, market = other property managers (provisional); Isaac likely IC, contract unread; data ownership pinned, fictional + public data interim.
