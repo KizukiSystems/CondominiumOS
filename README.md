@@ -15,6 +15,7 @@ The planning and canon home for the Concierge project: roadmap, work plan, and o
 | [ROADMAP.md](ROADMAP.md) | The phased roadmap: phase model, the gate, milestones M0-M3, invariants, open items |
 | [WORKPLAN.md](WORKPLAN.md) | Work packages sized for one Claude Code session/PR each, with definitions of done |
 | [CLAUDE.md](CLAUDE.md) | Operating rules for Claude Code sessions in this repo |
+| [SHIFTLOG.md](SHIFTLOG.md) | Per-session shift log; read the newest entry at shift start (MET-009 reconciliation) |
 | [docs/SOURCES.md](docs/SOURCES.md) | Provenance: the source documents this plan derives from |
 
 ## Confidentiality (read before contributing)
