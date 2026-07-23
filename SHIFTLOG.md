@@ -23,6 +23,29 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
 
 ---
 
+## Shift 002 — 2026-07-23 · Claude Code (branch `claude/project-status-check-ja97bb`)
+
+- **Scope requested:** (1) project status check against README and the shift log; (2) review the uploaded "CondominiumOS: A Foundations-First Repo Scouting Report"; (3) commit the SOURCES.md index entry and this log entry.
+- **Work completed** `[grounded — see git log]`:
+  - Shift-start reconciliation (MET-009): Shift 001 entry verified against `git log`; all three commits present, no drift.
+  - Review of the scouting report delivered in-session (chat); verdict: solid license-aware research, filed as Phase 2+ reference, not adopted for M1.
+  - `6fce40a` SOURCES.md index entry for the report: reference-only scope, stack conflict noted, not-adopted marker.
+- **Decisions proposed vs ratified:**
+  - Ratified by Tets this session: index the report in SOURCES.md as Phase 2+ reference; M1 default stack (Build Spec §4: TypeScript, React + Vite, thin Node pipeline) stands, report's Python + dlt + dbt + Postgres recommendation not adopted (no-silent-rewrites rule; trust beats recency).
+  - Proposed, pending Tets: whether the report's "Python platform builder" premise reflects a deliberate second track or researcher drift; if a real track, add a ledger item. SALVAGE.md verdicts and ledger #10 (repo home) remain pending from Shift 001.
+- **Discoveries / flags:**
+  - The report answers a platform question (generic CondominiumOS data foundations) not the wedge question (Concierge board prep). Its Stage 0 plan (Postgres + condo mixins, week 1) conflicts with the phase model pre-gate.
+  - Harvest map from the review: now, license cheat-sheet (copy-safe: condo MIT, dlt/dbt/Supabase Apache-2.0, Temporal MIT; re-verify at adoption). M2 design: append-only audit/run-log hybrid pattern. M2+: condo schema mixins (uuided/versioned/tracked/softDeleted, `*Change` tables; KeystoneJS, ports to the TS stack). Phase 2+ only: Supabase RLS multi-tenancy, admin UIs, Temporal.
+  - All of the report's external claims (licenses, versions, stars) are cited but unverified in-session `[open]`; verify LICENSE files at adoption time.
+- **Open items and blockers:**
+  - Created: none committed (Python-track ledger item proposed only).
+  - Still blocked: ledger #11 (AI Studio code folder, blocks M0 completion); ledger #1-#9 keyed to the Fri 2026-07-24 gate meeting (tomorrow); Lane B closed (Build Spec §6 unratified).
+  - Cleared: none.
+- **Next-shift pointers:**
+  1. Reconcile this entry against `git log` (MET-009). Note: Shift 002 work is on branch `claude/project-status-check-ja97bb`, which started from the tip of Shift 001's branch.
+  2. Shift 001 pointers stand: POC code folder → finish M0; Friday outcomes → ROADMAP §2 and the ledger; M1 scaffold on Tets's explicit go.
+  3. If any scouting-report component is ever adopted, re-verify its license first and record the adoption as a ratified decision, not a silent one.
+
 ## Shift 001 — 2026-07-23 · Claude Code (branch `claude/roadmap-work-plan-design-e05cre`)
 
 - **Scope requested:** design and commit a roadmap and work plan from the 12 uploaded project documents; then run the M0 salvage pass ("POC code is in the uploads folder"); then create this shift log.
