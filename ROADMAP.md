@@ -58,7 +58,7 @@ Work that survives every Friday outcome because it follows from the §4 invarian
 | Pre | Substance | Status |
 | :--- | :--- | :--- |
 | 1 | Repo scaffold (WP-1.1 core): stack, tooling, lane separation, directory layout | `[built 2026-07-23 — awaiting Tets's review]` |
-| 2 | LLM adapter `src/llm/adapter.ts`: one interface, Gemini default, Anthropic drop-in, model as config | `[queued]` |
+| 2 | LLM adapter `src/llm/adapter.ts`: one interface, Gemini default, Anthropic drop-in, model as config | `[built 2026-07-23 — awaiting Tets's review]` |
 | 3 | Citation engine + coverage test: cite or emit `[uncited — needs source]`; uncited output fails the build | `[queued]` |
 | 4 | Universal manual ingest: dropped files (.txt/.md/.eml/.pdf) → source-document model | `[queued]` |
 | 5 | UI kit port from `Concierge-OG` with the SALVAGE §4 repair rules applied | `[queued — ~90% gate-safe; Agenda.tsx structure assumes board prep]` |

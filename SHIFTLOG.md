@@ -69,6 +69,14 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
   3. Friday-gate pointers from Shift 001 stand.
 
+## Shift 004 addendum — 2026-07-23 · same session (pre-build item 2: LLM adapter)
+
+- Tets ratified starting item 2 after the scaffold ("go on 2").
+- **Work completed** `[grounded — verified this session]`: `src/llm/adapter.ts` (single entry: `getAdapter()`, env-resolved config, browser-context guard, strict `parseJsonResponse`), `providers/gemini.ts` (`@google/genai`, default `gemini-3.1-pro-preview`, JSON mode + schema), `providers/anthropic.ts` (`@anthropic-ai/sdk`, default `claude-opus-4-8`, structured output via `output_config`, refusals throw), `scripts/llm-smoke.ts` + `npm run llm:smoke` (offline config check; `--live` flag for a real call).
+- Verified: typecheck and production build pass with the SDKs installed; smoke test resolves both providers and rejects bad `LLM_PROVIDER`. Live call not run (no keys in this environment, by design).
+- Invariants honored: no provider calls outside `src/llm/`; keys via `.env` only; model choice is config; empty/refused responses throw instead of silently returning `[]` (the POC defect).
+- ROADMAP §3a item 2 → `[built — awaiting Tets's review]`. Next in queue on Tets's go: item 3, the citation engine + coverage test.
+
 ## Shift 004 — 2026-07-23 · Claude Code (branch `main`; same conversation, new work block: first code in the repo)
 
 - **Scope requested:** Tets asked what could be built that no Friday outcome invalidates; ratified building item 1 (repo scaffold) with review after, and putting items 2-5 on the roadmap as a queue.
