@@ -1,6 +1,6 @@
 # SALVAGE.md — M0 Salvage Pass (MET-008)
 
-**Status:** v1.0 COMPLETE · 2026-07-23 · run by Claude Code · awaiting Tets's disposition
+**Status:** v1.0 RATIFIED · run 2026-07-23 by Claude Code · disposed by Tets 2026-07-23: verdicts accepted as written; §4 repair rules confirmed binding for any port. **M0 closed.**
 **Source assessed:** `KizukiSystems/Concierge-OG` @ `65a6017` ("feat: bootstrap project with React and Gemini API", sole commit), synced by Tets from Google AI Studio. Supersedes v0.1 (which ran on uploads only; v0.1 text preserved in git history at `30407a5`).
 
 ## 1 · What was assessed `[grounded]`
@@ -70,4 +70,4 @@ Fixture **content** is faithful to canon `[grounded]`: all six required sources 
 
 ---
 
-*Disposition: pending Tets, per M0's done-when. Amendments require Tets's ratification.*
+*Disposition: ratified by Tets 2026-07-23 (verdicts accepted; repair rules confirmed; build home = `CondominiumOS`, ledger #10). Amendments require Tets's ratification.*

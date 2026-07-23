@@ -73,8 +73,8 @@ Work-package decomposition lives in [WORKPLAN.md](WORKPLAN.md).
 | 7 | Build Spec §6 data handling: where real data lives, what goes to which LLM with what redaction, retention/purge, consent on file | `[open — ratify before M2]` | **Lane B / M2 / M3** |
 | 8 | Partnership terms: equity, time, money in, roles, decision rights | `[open]` | The gate (relational pillar) |
 | 9 | Path to paid or a bounded value-exchange | `[open — Friday]` | Pilot framing |
-| 10 | Repo home for the build: Build Spec §4 says `KizukiSystems/concierge` (private); this planning repo is `CondominiumOS` | `[open — Tets to dispose]` | WP-1.1 scaffold location |
-| 11 | AI Studio POC code folder made available to Claude Code | `[cleared 2026-07-23]` — Tets synced it to GitHub as `KizukiSystems/Concierge-OG`; [SALVAGE.md](SALVAGE.md) v1.0 complete with per-file verdicts. M0 now waits only on Tets's disposition | M0 completion (per-file verdicts) |
+| 10 | Repo home for the build | `[disposed 2026-07-23]` — Tets: build lives here in `CondominiumOS` (supersedes Build Spec §4's `KizukiSystems/concierge`); `Concierge-OG` stays reference-only | WP-1.1 scaffold location: this repo |
+| 11 | AI Studio POC code folder made available to Claude Code | `[closed 2026-07-23]` — synced as `KizukiSystems/Concierge-OG`; [SALVAGE.md](SALVAGE.md) v1.0 ratified by Tets same day. **M0 complete** | M0: done |
 
 ## 6 · Definition of success (v0.x, Build Spec §9)
 

@@ -69,6 +69,15 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
   3. Friday-gate pointers from Shift 001 stand.
 
+## Shift 003 addendum — 2026-07-23 · same session (dispositions received, M0 closed)
+
+- Tets disposed on all four pending items this session `[grounded — Tets's message]`:
+  1. SALVAGE.md v1.0 verdicts: **accepted as written**. M0 is complete and closed.
+  2. The four port repair rules (rename CMG; Manager's Suggestion from manager input only; citation coverage as a test with `[uncited]` fallback; publish = honest export): **confirmed binding**. Recorded in WP-1.1.
+  3. Ledger #10: **the build lives here in `CondominiumOS`** (supersedes Build Spec §4's `concierge` repo). `Concierge-OG` stays reference-only.
+  4. Scouting report Python premise: **research drift, no second track**; report retained as reference for its framework, meta-patterns, and plumbing value. No new ledger item.
+- Remaining before code: the Fri 2026-07-24 gate meeting outcomes, then Tets's explicit go on WP-1.1.
+
 ## Shift 002 addendum — 2026-07-23 · same session (branch consolidation)
 
 - Ratified by Tets in-session: unify the two working branches into one canonical line. `main` created at the Shift 002 tip; `claude/roadmap-work-plan-design-e05cre` fast-forwarded to the same commit (it was a strict ancestor, no merge conflicts possible). `main` is canon going forward; the two `claude/*` branches are retirable.

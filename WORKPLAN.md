@@ -11,7 +11,7 @@ Work packages (WPs) sized so each is one Claude Code session / one PR. Detailed 
 ## M0 — Salvage Pass
 
 ### WP-0.1 · Salvage pass on the AI Studio POC
-- **Lane:** A · **Depends on:** open item #11 (cleared 2026-07-23) · **Status:** `[complete — awaiting disposition]` — [SALVAGE.md](SALVAGE.md) v1.0 run 2026-07-23 on `KizukiSystems/Concierge-OG` @ `65a6017`: full per-file verdicts, hallucination check, stack CONFIRMED `[grounded]`. M0 closes when Tets disposes on the verdicts
+- **Lane:** A · **Depends on:** open item #11 (cleared 2026-07-23) · **Status:** `[complete — ratified 2026-07-23]` — [SALVAGE.md](SALVAGE.md) v1.0 run on `KizukiSystems/Concierge-OG` @ `65a6017`; verdicts and §4 repair rules ratified by Tets same day. **M0 closed**
 - **Inputs:** the Drive folder "concierge googleaistudio app code" (Tets must drop it where Claude Code can read it; this environment has no Drive access by default)
 - **Tasks:** read the tree; sort every file into good-bones / hallucination-or-junk / already-superseded; write `SALVAGE.md` with a keep/rewrite/discard verdict per file and a stack recommendation (default stack in WP-1.1 stands unless the verdict overturns it)
 - **Done when:** `SALVAGE.md` exists and Tets has disposed on the verdicts
@@ -19,7 +19,7 @@ Work packages (WPs) sized so each is one Claude Code session / one PR. Detailed 
 ## M1 — Demo build (Lane A: fictional Maple Court / OCSCC 742 only)
 
 ### WP-1.1 · Repo scaffold
-- **Lane:** A · **Depends on:** WP-0.1 stack verdict (may start earlier on Tets's go); open item #10 (repo home)
+- **Lane:** A · **Depends on:** WP-0.1 stack verdict (CONFIRMED); open item #10 (disposed: build lives in this repo, `CondominiumOS`). Starts on Tets's explicit go, gate outcome permitting. Ports from `Concierge-OG` obey the SALVAGE.md §4 repair rules (ratified 2026-07-23): rename CMG to a fictional firm; Manager's Suggestion from manager input only, never model-assigned; citation coverage enforced by test with `[uncited — needs source]` fallback; publish = honest file export, no simulated actions
 - **Tasks:** scaffold per Build Spec §4: TypeScript, React + Vite front end, thin Node layer for the pipeline, local-first, no hosted backend. Layout: `spec/`, `fixtures/maple-court/` (committed), `data/` (gitignored, with committed `data/README.md` stating why), `src/ingest/ src/classify/ src/agenda/ src/llm/ src/ui/`, `runs/` (gitignored for Lane B runs). All LLM access behind one adapter (`src/llm/adapter.ts`): default provider Gemini API, Anthropic API as drop-in alternative, no provider calls outside the adapter, keys via `.env` never committed
 - **Done when:** repo installs and runs clean from cold; lint/typecheck pass; `data/` and `.env` verified gitignored
 
