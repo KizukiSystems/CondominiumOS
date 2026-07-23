@@ -69,6 +69,15 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
   3. Friday-gate pointers from Shift 001 stand.
 
+## Shift 004 addendum 2 — 2026-07-23 · same session (pre-build item 3: citation engine)
+
+- Tets ratified starting item 3 ("go on 3").
+- **Work completed** `[grounded — verified this session]`: `src/citations/model.ts` (Citation, claim-sized CitedBlock, `[uncited — needs source]` marker, violation/report types), `src/citations/engine.ts` (`checkCoverage`, `assertCoverage` as the pipeline's hard runtime gate, `splitSentences`), `src/citations/coverage.test.ts` (12 tests, wired as `npm test` via vitest).
+- Rules now executable: uncited prose fails; citations to nonexistent sources fail (regression test shaped like the POC's Cardinal Engineering hallucination, SALVAGE.md §4); the marker replaces prose entirely, never mixed in, never itself cited; empty blocks fail.
+- Verified: typecheck, all 12 tests, and production build pass.
+- **Proposed, pending Tets** `[open]`: `src/citations/` is an addition to the Build Spec §4 directory layout (`ingest/classify/agenda/llm/ui`); placed there because citation enforcement is cross-cutting, not wedge-specific. Ratify or direct a merge into another directory.
+- ROADMAP §3a item 3 → `[built — awaiting Tets's review]`. Next on Tets's go: item 4, universal manual ingest.
+
 ## Shift 004 addendum — 2026-07-23 · same session (pre-build item 2: LLM adapter)
 
 - Tets ratified starting item 2 after the scaffold ("go on 2").
