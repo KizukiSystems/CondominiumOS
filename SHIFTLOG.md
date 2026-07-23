@@ -69,6 +69,15 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
   3. Friday-gate pointers from Shift 001 stand.
 
+## Shift 004 addendum 3 — 2026-07-23 · same session (pre-build item 4: universal manual ingest)
+
+- Tets ratified item 3's layout proposal (`src/citations/` approved) and starting item 4 ("approved. go on 4").
+- **Work completed** `[grounded — verified this session]`: `src/ingest/model.ts` (SourceDoc: slug id as citation target; sender/date/subject only as declared by the source, never inferred), `src/ingest/ingest.ts` (recursive deterministic walk; parsers for txt/md header-sniff, eml with folded headers + multipart warning, json thread export matching the POC shape, pdf via `unpdf`; warnings instead of silent drops), `src/ingest/ingest.test.ts` (8 tests), `scripts/ingest.ts` + `npm run ingest -- <folder>` CLI.
+- Verified: typecheck, full suite (20 tests), production build, and a live CLI run on a scratch drop folder all pass.
+- **Proposed, pending Tets** `[open]`: new dependency `unpdf` (pure-JS PDF text extraction, no native code) for the .pdf format. Veto reverts .pdf to recognized-but-unparsed.
+- No-fabrication note: ingest never invents metadata; PDFs with no extractable text warn rather than pretending to be empty-but-fine.
+- ROADMAP §3a item 4 → `[built — awaiting Tets's review]`. Last in queue on Tets's go: item 5, the de-CMG'd UI kit port (~90% gate-safe).
+
 ## Shift 004 addendum 2 — 2026-07-23 · same session (pre-build item 3: citation engine)
 
 - Tets ratified starting item 3 ("go on 3").
