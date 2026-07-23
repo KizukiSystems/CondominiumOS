@@ -69,6 +69,30 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
   3. Friday-gate pointers from Shift 001 stand.
 
+## Session close — 2026-07-23 · Claude Code · consolidated summary of Shifts 002-004 (one conversation)
+
+Written at Tets's request as the single reconciliation point for the next shift. Detail lives in the Shift 002-004 entries and addenda below; this entry is the map. All claims verified against `git log` and a final test run (24/24 passing) `[grounded]`.
+
+- **Where things stand:** M0 CLOSED (ratified). Canon line is `main` at `3c87457`, 15 commits, one linear history. Gate-invariant pre-build queue (ROADMAP §3a) COMPLETE: all 5 items built the same day, each awaiting Tets's code review but ratified to build. Lane B closed. Wedge code (WP-1.2 corpus, WP-1.3 pipeline, agenda semantics) deliberately unbuilt pending the Fri 2026-07-24 gate meeting with Isaac.
+- **The session's work, in commit order:**
+  1. `6fce40a` `d96d61b` scouting report reviewed and filed as Phase 2+ reference, not adopted (Shift 002).
+  2. `691733a` branches consolidated into `main` (Shift 002 addendum).
+  3. `8c02178` M0 salvage pass completed on `Concierge-OG` @ `65a6017`; SALVAGE.md v1.0 (Shift 003).
+  4. `09b1b3e` Tets's dispositions recorded: SALVAGE ratified, M0 closed, build home = this repo, four port repair rules binding (Shift 003 addendum).
+  5. `4b36533` pre-gate intel logged to ledger #1-#6; ingest ratified universal + manual for v0.x (Shift 003 addendum 2).
+  6. `88e7201` pre-build 1: repo scaffold (React 19 + Vite + Tailwind + strict TS; lane separation in .gitignore, canary-tested) (Shift 004).
+  7. `4e52249` pre-build 2: LLM adapter, Gemini default / Anthropic drop-in, no provider calls outside `src/llm/`.
+  8. `2d5af20` pre-build 3: citation engine + coverage test; the invariant is now executable and build-failing.
+  9. `d02f2f3` pre-build 4: universal manual ingest (txt/md/eml/json/pdf), warnings never silent drops.
+  10. `3c87457` pre-build 5: UI kit ported with all four repair rules applied; seed corpus committed; cached demo data repaired against the citation invariant; queue complete.
+- **Ratified by Tets this session:** merge to `main`; SALVAGE v1.0 verdicts; M0 closure; build home (ledger #10); repair rules; scouting-report disposition (drift, keep as reference); ingest universal + manual; building pre-build items 1-5; `src/citations/` layout addition.
+- **Still open for Tets:** code review of the five pre-build items; `unpdf` dependency ratification; GitHub housekeeping (default branch → `main`, delete the two `claude/*` branches).
+- **Next shift, in order:**
+  1. Reconcile this entry against `git log` (MET-009).
+  2. Ingest the Friday gate outcomes: update ROADMAP §2 outcome branch, ledger #1-#9, Discovery Log statuses. If a different wedge is named, retarget WP-1.x before any code (Agenda's five-category structure and `src/agenda/` rename freely; everything else is wedge-proof).
+  3. On wedge confirmation + Tets's go: WP-1.2 (expand `fixtures/maple-court/` to ~15-25 docs including governing documents, so legal context becomes citable) then WP-1.3 (pipeline: ingest → classify → generate → `assertCoverage` → render; wire `npm run demo` end to end).
+  4. Build Spec §6 drafting starts when the meeting yields the data-handling facts; Lane B stays closed until ratified.
+
 ## Shift 004 addendum 4 — 2026-07-23 · same session (pre-build item 5: UI kit port; queue complete)
 
 - Tets ratified starting item 5 ("let's go on 5").
