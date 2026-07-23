@@ -69,6 +69,23 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
   3. Friday-gate pointers from Shift 001 stand.
 
+## Shift 005 — 2026-07-23 · Claude Code (branch `main`; same conversation, post-close work block: external review + quality batch)
+
+- **Scope requested:** Tets had an external AI reviewer (Perplexity, with repo access) audit the codebase as a senior developer; Claude Code assessed the review; Tets ratified executing its "cheap and high-leverage" batch (plan-mode approved).
+- **Review disposition** `[grounded — review text on file in chat; indexed in docs/SOURCES.md]`:
+  - Verdict accepted: sound audit, no contested findings. Two real catches acknowledged: dual Citation types (UI vs citations module) and item-level rather than sentence-level coverage in the demo test.
+  - Caveats recorded: the review's "Top risks, ranked" section arrived empty/truncated; an AI review does not substitute for the human review, which remains open.
+  - Deferred findings tracked, not built: ROADMAP §3a quality follow-ups (Citation unification, adapter unit tests, granularity annotation, prompt-injection design before generate, UI tests).
+- **Work completed** `[grounded — verified this session]`:
+  - ESLint (flat config: JS/TS recommended + react-hooks + prettier compat) and Prettier (canon `*.md` excluded from formatting, permanently); `npm run lint` is now real linting, `typecheck` stays tsc. Zero eslint findings; mechanical formatting applied across `src/` and `scripts/`.
+  - CI: `.github/workflows/ci.yml` (Node 24: npm ci → typecheck → lint → format:check → test → build) on push/PR to `main`.
+  - `docs/REVIEW.md`: the human-review guide making Tets's review of the five modules a ~20-minute job; records the one open ratification (`unpdf`).
+  - README refreshed: status, quickstart, full repo map spanning canon docs and `src/`.
+  - External review indexed in docs/SOURCES.md.
+- Verified: typecheck, eslint, format:check, 24/24 tests, production build all pass post-formatting.
+- **Open items:** the human review itself (docs/REVIEW.md, Tets); `unpdf` ratification; CI first-run confirmation on GitHub; GitHub housekeeping (default branch → `main`, prune `claude/*` branches) unchanged.
+- **Next-shift pointers:** unchanged from Session close below; this batch adds no new gate dependencies.
+
 ## Session close — 2026-07-23 · Claude Code · consolidated summary of Shifts 002-004 (one conversation)
 
 Written at Tets's request as the single reconciliation point for the next shift. Detail lives in the Shift 002-004 entries and addenda below; this entry is the map. All claims verified against `git log` and a final test run (24/24 passing) `[grounded]`.

@@ -66,22 +66,27 @@ export function Agenda({ doc, sourceCount, onBack, onOpenCitation, onUpdateItem,
 
       <div className="max-w-4xl mx-auto px-8 pt-16">
         <header className="mb-16">
-          <div className="text-xs font-bold tracking-widest text-gray-500 uppercase mb-4">Draft Board Agenda</div>
+          <div className="text-xs font-bold tracking-widest text-gray-500 uppercase mb-4">
+            Draft Board Agenda
+          </div>
           <h1 className="text-5xl font-serif text-gray-900 mb-2">{doc.title}</h1>
-          <p className="text-lg text-gray-500 mb-6 italic font-serif">Maple Court · OCSCC 742 · 88 residential units · Ottawa</p>
+          <p className="text-lg text-gray-500 mb-6 italic font-serif">
+            Maple Court · OCSCC 742 · 88 residential units · Ottawa
+          </p>
           <div className="text-sm text-gray-600 mb-8 pb-8 border-b border-gray-200">
             Board Meeting · {doc.meetingDate} · Party Room, 200 Maple Court Lane
           </div>
 
           <div className="bg-gray-50 border border-gray-200 rounded p-4 text-sm text-gray-600 mb-8">
-            Drafted by Concierge from <strong>{sourceCount} fictional source documents</strong> (cached demo data;
-            the live pipeline arrives with WP-1.3). Every item links to its source. Review before circulating.
+            Drafted by Concierge from <strong>{sourceCount} fictional source documents</strong> (cached demo
+            data; the live pipeline arrives with WP-1.3). Every item links to its source. Review before
+            circulating.
           </div>
 
           {isFinal && (
             <div className="bg-green-50 border border-green-200 rounded p-4 text-sm text-green-800 mb-8">
-              Pack marked final and frozen locally. Nothing was sent, filed, or synced anywhere; export to file
-              arrives with the pipeline work.
+              Pack marked final and frozen locally. Nothing was sent, filed, or synced anywhere; export to
+              file arrives with the pipeline work.
             </div>
           )}
         </header>
@@ -95,7 +100,9 @@ export function Agenda({ doc, sourceCount, onBack, onOpenCitation, onUpdateItem,
             <div key={item.id} className="relative">
               <div className="absolute -left-16 top-1">
                 <button
-                  onClick={() => onUpdateItem(item.id, { status: item.status === 'approved' ? 'pending' : 'approved' })}
+                  onClick={() =>
+                    onUpdateItem(item.id, { status: item.status === 'approved' ? 'pending' : 'approved' })
+                  }
                   disabled={isFinal}
                   title="Approve item"
                   className={`w-8 h-8 rounded-full border flex items-center justify-center transition-colors ${
@@ -110,7 +117,9 @@ export function Agenda({ doc, sourceCount, onBack, onOpenCitation, onUpdateItem,
 
               <div className="flex items-center space-x-3 mb-3">
                 <span className="text-gray-400 font-mono text-sm">0{index + 1}</span>
-                <span className="text-xs font-bold tracking-widest text-gray-400 uppercase">{item.category}</span>
+                <span className="text-xs font-bold tracking-widest text-gray-400 uppercase">
+                  {item.category}
+                </span>
               </div>
 
               <h3 className="text-2xl font-serif text-gray-900 mb-4 leading-snug">{item.decisionHeadline}</h3>

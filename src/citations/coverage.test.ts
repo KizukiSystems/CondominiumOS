@@ -40,7 +40,13 @@ describe('checkCoverage', () => {
     // Engineering" for a structural review no source ever mentioned. A claim
     // whose citation cannot resolve to a real document must fail the build.
     const report = checkCoverage(
-      [cited('items[0].talkingPoints.s2', 'Strongly advise bringing in Cardinal Engineering.', 'no-such-doc')],
+      [
+        cited(
+          'items[0].talkingPoints.s2',
+          'Strongly advise bringing in Cardinal Engineering.',
+          'no-such-doc',
+        ),
+      ],
       SOURCES,
     );
     expect(report.ok).toBe(false);
@@ -48,7 +54,10 @@ describe('checkCoverage', () => {
   });
 
   it('accepts the uncited marker as an honest replacement for prose', () => {
-    const report = checkCoverage([{ path: 'items[2].background.s3', text: UNCITED_MARKER, citations: [] }], SOURCES);
+    const report = checkCoverage(
+      [{ path: 'items[2].background.s3', text: UNCITED_MARKER, citations: [] }],
+      SOURCES,
+    );
     expect(report.ok).toBe(true);
     expect(report.uncitedMarkerCount).toBe(1);
   });
@@ -93,7 +102,10 @@ describe('assertCoverage', () => {
 
 describe('formatReport', () => {
   it('summarizes counts and lists violations with paths', () => {
-    const report = checkCoverage([cited('items[1].background.s1', 'Unit 504 has complained four times.')], SOURCES);
+    const report = checkCoverage(
+      [cited('items[1].background.s1', 'Unit 504 has complained four times.')],
+      SOURCES,
+    );
     const text = formatReport(report);
     expect(text).toContain('violations: 1');
     expect(text).toContain('items[1].background.s1');

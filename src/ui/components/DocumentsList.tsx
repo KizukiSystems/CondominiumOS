@@ -36,7 +36,8 @@ export function DocumentsList({ documents, onSelect }: DocumentsListProps) {
                   </span>
                 </div>
                 <div className="text-sm text-gray-500">
-                  Meeting: {doc.meetingDate} · {doc.agendaItems.length} decisions · generated {doc.generatedDate}
+                  Meeting: {doc.meetingDate} · {doc.agendaItems.length} decisions · generated{' '}
+                  {doc.generatedDate}
                 </div>
               </div>
             ))

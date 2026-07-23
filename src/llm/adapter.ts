@@ -82,6 +82,9 @@ export async function getAdapter(env: NodeJS.ProcessEnv = process.env): Promise<
  * failed generation means; silent-empty was a POC defect (SALVAGE.md §3).
  */
 export function parseJsonResponse<T>(text: string): T {
-  const trimmed = text.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
+  const trimmed = text
+    .trim()
+    .replace(/^```(?:json)?\s*/i, '')
+    .replace(/\s*```$/, '');
   return JSON.parse(trimmed) as T;
 }

@@ -33,7 +33,10 @@ export default function App() {
     setPacks((prev) =>
       prev.map((pack) =>
         pack.id === activePackId
-          ? { ...pack, agendaItems: pack.agendaItems.map((i) => (i.id === itemId ? { ...i, ...updates } : i)) }
+          ? {
+              ...pack,
+              agendaItems: pack.agendaItems.map((i) => (i.id === itemId ? { ...i, ...updates } : i)),
+            }
           : pack,
       ),
     );
@@ -68,7 +71,11 @@ export default function App() {
           onFinalize={handleFinalize}
         />
       )}
-      <CitationPanel thread={activeThread} isOpen={activeSourceId !== null} onClose={() => setActiveSourceId(null)} />
+      <CitationPanel
+        thread={activeThread}
+        isOpen={activeSourceId !== null}
+        onClose={() => setActiveSourceId(null)}
+      />
     </Layout>
   );
 }

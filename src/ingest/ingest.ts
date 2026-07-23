@@ -41,11 +41,7 @@ export async function ingestDirectory(dir: string): Promise<IngestResult> {
   return { docs, warnings };
 }
 
-async function parseFile(
-  absPath: string,
-  relPath: string,
-  ext: string,
-): Promise<IngestResult> {
+async function parseFile(absPath: string, relPath: string, ext: string): Promise<IngestResult> {
   const base = { fileName: relPath, id: slug(relPath) };
   switch (ext) {
     case '.txt':

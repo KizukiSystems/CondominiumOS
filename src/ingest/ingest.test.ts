@@ -11,9 +11,7 @@ beforeAll(async () => {
   dir = await fs.mkdtemp(path.join(os.tmpdir(), 'concierge-ingest-'));
   const write = (name: string, content: string) => {
     const abs = path.join(dir, name);
-    return fs
-      .mkdir(path.dirname(abs), { recursive: true })
-      .then(() => fs.writeFile(abs, content, 'utf8'));
+    return fs.mkdir(path.dirname(abs), { recursive: true }).then(() => fs.writeFile(abs, content, 'utf8'));
   };
   await Promise.all([
     write(
@@ -28,7 +26,12 @@ beforeAll(async () => {
     write(
       'threads.json',
       JSON.stringify([
-        { sender: 'Owner, Unit 210', date: 'Apr 9', subject: 'EV Charger Request', body: 'Requesting approval.' },
+        {
+          sender: 'Owner, Unit 210',
+          date: 'Apr 9',
+          subject: 'EV Charger Request',
+          body: 'Requesting approval.',
+        },
         { sender: 'Accounts ledger', date: 'Apr 30', subject: 'Past Due Accounts', body: '$9,240 total.' },
         { date: 'Apr 1', subject: 'broken entry' },
       ]),

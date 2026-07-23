@@ -1,0 +1,6 @@
+# Build output and lockfile
+dist/
+package-lock.json
+
+# Planning canon is prose, hand-formatted; tooling never reformats it
+*.md

@@ -24,7 +24,9 @@ export function Layout({ children, currentView, onNavigate }: LayoutProps) {
           <span>Maple Court</span>
         </div>
         <nav className="flex-1 overflow-y-auto py-4">
-          <div className="px-4 text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Workspace</div>
+          <div className="px-4 text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">
+            Workspace
+          </div>
           <ul className="space-y-1">
             {NAV.map((item) => (
               <li

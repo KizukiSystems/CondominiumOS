@@ -65,6 +65,14 @@ Work that survives every Friday outcome because it follows from the §4 invarian
 
 Deliberately NOT in this queue (waits for the gate): the Maple Court corpus (WP-1.2) and agenda-item semantics, which encode the wedge.
 
+**Quality follow-ups** (from the external senior-dev review, 2026-07-23) `[proposed — Tets to prioritize]`:
+
+1. Unify the two Citation types (`src/ui/types.ts` vs `src/citations/model.ts`), currently bridged by hand in the demo test.
+2. Unit-test the adapter's pure logic (config resolution, `parseJsonResponse`).
+3. Annotate the demo coverage test's item-level granularity; sentence-level enforcement lands with the WP-1.3 generate step.
+4. Design prompt-injection defenses before the generate step touches any corpus (source documents are untrusted input to the LLM); mandatory before M2 touches real mail.
+5. UI interaction tests, once the pipeline exists.
+
 ## 4 · Standing invariants (enforced non-goals, Build Spec §2)
 
 - No board/resident-facing portal (Phase 2+; separate Spawn-vs-Fold decision)
