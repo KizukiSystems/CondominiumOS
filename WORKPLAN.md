@@ -11,7 +11,7 @@ Work packages (WPs) sized so each is one Claude Code session / one PR. Detailed 
 ## M0 — Salvage Pass
 
 ### WP-0.1 · Salvage pass on the AI Studio POC
-- **Lane:** A · **Depends on:** open item #11 (POC code made available) · **Status:** `[partial]` — [SALVAGE.md](SALVAGE.md) v0.1 run 2026-07-23 on available artifacts (Hero v1.1 render: KEEP as design reference/fixture seed; default stack stands); the code tree itself was not in the uploads, so per-file verdicts remain `[blocked — needs input]`
+- **Lane:** A · **Depends on:** open item #11 (cleared 2026-07-23) · **Status:** `[complete — awaiting disposition]` — [SALVAGE.md](SALVAGE.md) v1.0 run 2026-07-23 on `KizukiSystems/Concierge-OG` @ `65a6017`: full per-file verdicts, hallucination check, stack CONFIRMED `[grounded]`. M0 closes when Tets disposes on the verdicts
 - **Inputs:** the Drive folder "concierge googleaistudio app code" (Tets must drop it where Claude Code can read it; this environment has no Drive access by default)
 - **Tasks:** read the tree; sort every file into good-bones / hallucination-or-junk / already-superseded; write `SALVAGE.md` with a keep/rewrite/discard verdict per file and a stack recommendation (default stack in WP-1.1 stands unless the verdict overturns it)
 - **Done when:** `SALVAGE.md` exists and Tets has disposed on the verdicts

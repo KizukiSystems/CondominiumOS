@@ -46,6 +46,29 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. Shift 001 pointers stand: POC code folder → finish M0; Friday outcomes → ROADMAP §2 and the ledger; M1 scaffold on Tets's explicit go.
   3. If any scouting-report component is ever adopted, re-verify its license first and record the adoption as a ratified decision, not a silent one.
 
+## Shift 003 — 2026-07-23 · Claude Code (branch `main`; same conversation as Shift 002, logged separately because M0 scope opened mid-session)
+
+- **Scope requested:** Tets synced the AI Studio POC to GitHub as `KizukiSystems/Concierge-OG` and provided the link; finish M0 per SALVAGE.md §6.
+- **Work completed** `[grounded — see git log]`:
+  - Cloned `Concierge-OG` @ `65a6017` (sole commit, 23 files, ~1,650 lines TS/TSX); read every file; verified `tsc --noEmit` and production build both pass.
+  - SALVAGE.md v1.0: full per-file keep/rewrite/discard verdicts, hallucination/canon check, stack recommendation upgraded to CONFIRMED `[grounded]` (the POC already is the Build Spec §4 stack). Summary: good bones; ~60% survives into M1, mostly the UI layer; pipeline layer needs rewrite behind the adapter; AI Studio harness, CMG-branded surfaces, and simulated-autonomy theater discarded.
+  - WORKPLAN WP-0.1 → `[complete — awaiting disposition]`; ROADMAP ledger #11 → cleared.
+- **Decisions proposed vs ratified:**
+  - Ratified by Tets this session: none new (branch consolidation was ratified earlier, see Shift 002 addendum).
+  - Proposed, pending Tets: all SALVAGE.md v1.0 verdicts (§3) and the four invariant-repair requirements for any port (§4). M0's done-when needs Tets's disposition.
+- **Discoveries / flags:**
+  - **CMG (the real management company) is named inside the fictional demo** (CMGReports.tsx, nav, a mock `@cmg.com` email, a publish step). Rule 6 violation in any port; rename to a fictional firm.
+  - **The POC has the LLM invent the Manager's Suggestion and advice-flavored talking points**, including one true hallucination (recommends "Cardinal Engineering" for the structural slab review; Cardinal is the reserve-fund firm; no structural firm exists in the sources) and uncited claims ($500k failure figure, ~15% market-rate rise). Exactly the failure modes the citation and no-advice invariants exist to catch.
+  - The publish flow simulates autonomous actions (calendar invites, portal sync); must become an honest export.
+  - Fixture content is canon-faithful: all six required sources exact, plus two useful distractors. "31 messages across 8 threads" confirmed hard-coded (corpus is 8 single-message threads).
+- **Open items and blockers:**
+  - Cleared: ledger #11.
+  - Still open: Tets's disposition on SALVAGE v1.0 (closes M0); ledger #10 (build home; `Concierge-OG` is reference-only, not the build repo); ledger #1-#9 keyed to the Fri 2026-07-24 gate; Lane B closed.
+- **Next-shift pointers:**
+  1. Reconcile against `git log` (MET-009). Canon line is `main`.
+  2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
+  3. Friday-gate pointers from Shift 001 stand.
+
 ## Shift 002 addendum — 2026-07-23 · same session (branch consolidation)
 
 - Ratified by Tets in-session: unify the two working branches into one canonical line. `main` created at the Shift 002 tip; `claude/roadmap-work-plan-design-e05cre` fast-forwarded to the same commit (it was a strict ancestor, no merge conflicts possible). `main` is canon going forward; the two `claude/*` branches are retirable.
