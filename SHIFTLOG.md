@@ -69,6 +69,12 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
   3. Friday-gate pointers from Shift 001 stand.
 
+## Shift 003 addendum 2 — 2026-07-23 · same session (pre-gate intel from Tets)
+
+- Tets provided pre-meeting answers by voice (transcript partly garbled; interpretation played back for correction). Ledger #1-#6 updated with tagged notes: wedge strongly signaled by Isaac's own past statements `[assumption]`; stack = Gmail + Drive + likely Asana `[assumption — Tets recall]`; ingest stays universal/manual for v0.x (ratified, matches existing invariant); CMG kept clear, personal-use posture, market = other property managers (provisional); Isaac likely IC, contract unread; data ownership pinned, fictional + public data interim.
+- Unparsed transcript fragments flagged to Tets: opening phrase ("Lunchboxes..."), exact PM software name.
+- Net effect on the gate: Friday narrows to confirming the wedge with Isaac directly, collecting the item #3 artifacts, the contract (#5), and the relationship items (#8, #9).
+
 ## Shift 003 addendum — 2026-07-23 · same session (dispositions received, M0 closed)
 
 - Tets disposed on all four pending items this session `[grounded — Tets's message]`:

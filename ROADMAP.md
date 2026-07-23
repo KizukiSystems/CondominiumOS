@@ -64,12 +64,12 @@ Work-package decomposition lives in [WORKPLAN.md](WORKPLAN.md).
 
 | # | Item | Status | Unblocks |
 | :--- | :--- | :--- | :--- |
-| 1 | Wedge confirmation (board prep, or a better one) | `[open — Friday]` | M1 target lock; the gate |
-| 2 | Isaac's real daily stack (email, accounting, doc store, PM software, real names) | `[open — Friday]` | M2 ingest formats |
-| 3 | Sample agenda + talking-points format + where source emails live + CMG template | `[open — Friday]` | M1 output template |
-| 4 | CMG posture: customer, blessing-giver, or kept clear of; read/write boundaries | `[open — Friday]` | Hardens §4 non-goals; partnership posture |
-| 5 | Employee vs IC, then read the CMG contract (IP assignment, confidentiality, non-solicit/non-compete) | `[blocked — needs Isaac's status + contract]` | IP posture; Two-Layer Attribution log (MET-012) opens with the repo |
-| 6 | Pilot data ownership (whose data is a real building's data; CMRAO confidentiality) | `[open]` | Build Spec §6 ratification |
+| 1 | Wedge confirmation (board prep, or a better one) | `[open — Friday]` · pre-gate signal (Tets, 2026-07-23): Isaac has already named board prep among his biggest time sinks and wants it off his plate `[assumption until Isaac confirms]` | M1 target lock; the gate |
+| 2 | Isaac's real daily stack (email, accounting, doc store, PM software, real names) | `[open — Friday]` · known so far `[assumption — Tets recall]`: Gmail, Google Drive, likely Asana for PM. Decision (Tets, ratified 2026-07-23): v0.x ingest stays universal and manual (file drops/exports, no integrations); real-system integration is a later phase | M2 ingest formats |
+| 3 | Sample agenda + talking-points format + where source emails live + CMG template | `[open — Friday]` · Tets expects these to be easy and quick to obtain | M1 output template |
+| 4 | CMG posture: customer, blessing-giver, or kept clear of; read/write boundaries | `[provisionally set — Tets, 2026-07-23]`: keep CMG clear of this for now; tool is for Isaac's personal use; venture stays between Tets and Isaac; eventual market is other property managers, not CMG. Confirm with Isaac Friday | Hardens §4 non-goals; partnership posture |
+| 5 | Employee vs IC, then read the CMG contract (IP assignment, confidentiality, non-solicit/non-compete) | `[open]` · likely independent contractor `[assumption — Tets recall]`; contract still unread, so IP posture stays unresolved | IP posture; Two-Layer Attribution log (MET-012) opens with the repo |
+| 6 | Pilot data ownership (whose data is a real building's data; CMRAO confidentiality) | `[pinned — Tets, 2026-07-23]`: ownership unclear, deliberately parked; interim rule: fictional fixtures and public data only, which Lane A already enforces | Build Spec §6 ratification |
 | 7 | Build Spec §6 data handling: where real data lives, what goes to which LLM with what redaction, retention/purge, consent on file | `[open — ratify before M2]` | **Lane B / M2 / M3** |
 | 8 | Partnership terms: equity, time, money in, roles, decision rights | `[open]` | The gate (relational pillar) |
 | 9 | Path to paid or a bounded value-exchange | `[open — Friday]` | Pilot framing |
