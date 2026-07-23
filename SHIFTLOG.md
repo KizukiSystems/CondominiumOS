@@ -69,6 +69,18 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
   3. Friday-gate pointers from Shift 001 stand.
 
+## Shift 004 addendum 4 — 2026-07-23 · same session (pre-build item 5: UI kit port; queue complete)
+
+- Tets ratified starting item 5 ("let's go on 5").
+- **Work completed** `[grounded — verified this session]`:
+  - Ported from `Concierge-OG` with repair rules applied: Layout (CMG nav and dead links cut, honest footer), Inbox, DocumentsList, Agenda (publish theater replaced by a local "mark final" freeze that states nothing was sent; provenance banner computed from the corpus, replacing the hard-coded "31 messages across 8 threads"), CitationPanel (dead portal button cut). `motion` dependency not ported (CSS only).
+  - `fixtures/maple-court/seed-threads.json` committed: the 8 seed threads, valid both as the demo UI's data and as `npm run ingest` input. First entries of the WP-1.2 corpus.
+  - **Cached demo data repaired against the citation invariant**: the POC's uncited claims ($500k failure figure, ~15% market rates, lien "tight window", invented engineer pricing) and unsourced legal context (30-day rental rule, Act deadlines) removed or rewritten to what the 8 sources support; the Cardinal-for-structural hallucination gone. Legal context returns with WP-1.2 cited to governing docs.
+  - Tests added (4): cached data passes `checkCoverage` against the seed corpus; citation display fields match their sources; exactly one Manager's Suggestion per item; a repo hygiene test asserting the real management company's name appears nowhere under `src/` or `fixtures/`.
+  - Fictional email domains switched to reserved `.example` style copy where they appeared (real-looking `.ca`/`.com` domains cut).
+- Verified: typecheck, full suite (24 tests), production build, dev server all pass. `npm run demo` now shows the working flow: inbox → prep → cited agenda → citation chip → source panel → mark final.
+- ROADMAP §3a items 1-5 all `[built — awaiting Tets's review]`. **The gate-invariant pre-build queue is complete.** Remaining before wedge code: the Friday gate outcomes, then WP-1.2 corpus + WP-1.3 pipeline on Tets's go.
+
 ## Shift 004 addendum 3 — 2026-07-23 · same session (pre-build item 4: universal manual ingest)
 
 - Tets ratified item 3's layout proposal (`src/citations/` approved) and starting item 4 ("approved. go on 4").

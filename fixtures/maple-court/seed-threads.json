@@ -1,0 +1,58 @@
+[
+  {
+    "id": "t1",
+    "sender": "Rideau Roofing",
+    "date": "Apr 12",
+    "subject": "P1 Garage Membrane Inspection Quote",
+    "body": "Inspected the P1 garage membrane after the March leak. Quote $42,000 for a standard recoat. No structural concerns noted from our visual inspection."
+  },
+  {
+    "id": "t2",
+    "sender": "Capital Membrane",
+    "date": "Apr 18",
+    "subject": "Inspection Report - P1 Membrane",
+    "body": "Inspected the same P1 membrane. Quote $51,000. Noted staining consistent with possible slab deterioration beneath the membrane. Recommends a structural engineer confirm before any recoat."
+  },
+  {
+    "id": "t3",
+    "sender": "Owner, Unit 504",
+    "date": "Apr 3",
+    "subject": "Noise Complaint - Unit 511",
+    "body": "This is my fourth complaint since February about late-night noise and constant turnover at Unit 511. I strongly suspect it's being used as a short-term rental. Can management please look into this?"
+  },
+  {
+    "id": "t4",
+    "sender": "Cardinal Engineering",
+    "date": "Apr 7",
+    "subject": "Reserve Fund Study Renewal",
+    "body": "The reserve fund study is three years old; an update is due this fiscal year. Offering to renew at last cycle's rate, $6,800."
+  },
+  {
+    "id": "t5",
+    "sender": "Owner, Unit 210",
+    "date": "Apr 9",
+    "subject": "EV Charger Request",
+    "body": "Requesting approval to install a Level 2 EV charger in my parking space. Please let me know the required forms or process."
+  },
+  {
+    "id": "t6",
+    "sender": "Accounts ledger",
+    "date": "Apr 30",
+    "subject": "Past Due Accounts Summary",
+    "body": "Units 312 and 808 are each 60+ days past due on common expenses, $9,240 total, and have missed two consecutive notices."
+  },
+  {
+    "id": "t7",
+    "sender": "GreenScape Landscaping",
+    "date": "Apr 15",
+    "subject": "Spring Cleanup Schedule",
+    "body": "Confirming the spring cleanup schedule for the week of May 1st. Please let us know if there are any specific areas of focus."
+  },
+  {
+    "id": "t8",
+    "sender": "Owner, Unit 119",
+    "date": "Apr 22",
+    "subject": "Visitor Parking Passes",
+    "body": "Asking when visitor parking passes reissue. I lost my old one."
+  }
+]

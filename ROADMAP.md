@@ -61,7 +61,7 @@ Work that survives every Friday outcome because it follows from the §4 invarian
 | 2 | LLM adapter `src/llm/adapter.ts`: one interface, Gemini default, Anthropic drop-in, model as config | `[built 2026-07-23 — awaiting Tets's review]` |
 | 3 | Citation engine + coverage test: cite or emit `[uncited — needs source]`; uncited output fails the build | `[built 2026-07-23 — awaiting Tets's review]` |
 | 4 | Universal manual ingest: dropped files (.txt/.md/.eml/.json/.pdf) → source-document model | `[built 2026-07-23 — awaiting Tets's review]` |
-| 5 | UI kit port from `Concierge-OG` with the SALVAGE §4 repair rules applied | `[queued — ~90% gate-safe; Agenda.tsx structure assumes board prep]` |
+| 5 | UI kit port from `Concierge-OG` with the SALVAGE §4 repair rules applied | `[built 2026-07-23 — awaiting Tets's review]` · gate note: Agenda's five-category structure still assumes board prep and retargets freely |
 
 Deliberately NOT in this queue (waits for the gate): the Maple Court corpus (WP-1.2) and agenda-item semantics, which encode the wedge.
 
