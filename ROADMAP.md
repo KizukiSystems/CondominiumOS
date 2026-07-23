@@ -74,7 +74,7 @@ Work-package decomposition lives in [WORKPLAN.md](WORKPLAN.md).
 | 8 | Partnership terms: equity, time, money in, roles, decision rights | `[open]` | The gate (relational pillar) |
 | 9 | Path to paid or a bounded value-exchange | `[open — Friday]` | Pilot framing |
 | 10 | Repo home for the build: Build Spec §4 says `KizukiSystems/concierge` (private); this planning repo is `CondominiumOS` | `[open — Tets to dispose]` | WP-1.1 scaffold location |
-| 11 | AI Studio POC code folder made available to Claude Code (lives in Drive: "concierge googleaistudio app code") | `[blocked — needs input from Tets]` | M0 salvage pass |
+| 11 | AI Studio POC code folder made available to Claude Code (lives in Drive: "concierge googleaistudio app code"); the 2026-07-23 uploads contained documents + the Hero v1.1 render only, so [SALVAGE.md](SALVAGE.md) is partial | `[blocked — needs input from Tets]` | M0 completion (per-file verdicts) |
 
 ## 6 · Definition of success (v0.x, Build Spec §9)
 
