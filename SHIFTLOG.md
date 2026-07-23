@@ -46,6 +46,11 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
   2. Shift 001 pointers stand: POC code folder → finish M0; Friday outcomes → ROADMAP §2 and the ledger; M1 scaffold on Tets's explicit go.
   3. If any scouting-report component is ever adopted, re-verify its license first and record the adoption as a ratified decision, not a silent one.
 
+## Shift 002 addendum — 2026-07-23 · same session (branch consolidation)
+
+- Ratified by Tets in-session: unify the two working branches into one canonical line. `main` created at the Shift 002 tip; `claude/roadmap-work-plan-design-e05cre` fast-forwarded to the same commit (it was a strict ancestor, no merge conflicts possible). `main` is canon going forward; the two `claude/*` branches are retirable.
+- Shift 002's "two unmerged branches" housekeeping note is resolved by this. `[grounded — git log]`
+
 ## Shift 001 — 2026-07-23 · Claude Code (branch `claude/roadmap-work-plan-design-e05cre`)
 
 - **Scope requested:** design and commit a roadmap and work plan from the 12 uploaded project documents; then run the M0 salvage pass ("POC code is in the uploads folder"); then create this shift log.
