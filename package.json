@@ -13,6 +13,7 @@
     "format:check": "prettier --check .",
     "llm:smoke": "tsx scripts/llm-smoke.ts",
     "ingest": "tsx scripts/ingest.ts",
+    "corpus:merge": "tsx scripts/merge-corpus.ts",
     "test": "vitest run"
   },
   "dependencies": {

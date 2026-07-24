@@ -1,6 +1,7 @@
-// Deterministic demo data over the generated Maple Court corpus
-// (fixtures/maple-court/corpus.json: 47 fictional messages, Feb-Apr 2026,
-// five decision storylines plus routine noise; supersedes the POC seed).
+// Deterministic demo data over the merged Maple Court corpus
+// (fixtures/maple-court/corpus.json: 140 fictional messages, Feb-May 2026,
+// corpus v1 generated 2026-07-23 plus the converted Notion mock database;
+// five decision storylines plus routine noise).
 // The cached agenda items state only what the corpus's cited anchor
 // messages support; the coverage test in demoSeed.test.ts enforces this.
 // Legal context (the 30-day rental rule, Act deadlines) arrives when the

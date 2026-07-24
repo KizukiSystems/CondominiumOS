@@ -1,5 +1,509 @@
 [
   {
+    "id": "t-1025-3",
+    "threadId": "t-1025",
+    "sender": "J. Plourde (Unit 119)",
+    "to": "manager@maplecourt.example",
+    "date": "May 15",
+    "subject": "Re: Bike room door not latching",
+    "body": "Thanks. Just FYI it's currently propped open again.\n\nUnit 119"
+  },
+  {
+    "id": "t-1016-3",
+    "threadId": "t-1016",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner615@maplecourt.example",
+    "date": "May 14",
+    "subject": "Re: Gym treadmill belt slipping (2nd floor amenity) - resolved",
+    "body": "Hi,\n\nUpdate: vendor attended and adjusted belt tension. The treadmill is back in service.\n\nThanks again for flagging.\n\n-Dana"
+  },
+  {
+    "id": "t-1017-4",
+    "threadId": "t-1017",
+    "sender": "PeakFit Maintenance",
+    "to": "manager@maplecourt.example",
+    "date": "May 14",
+    "subject": "Re: Quote request: gym equipment service call (Maple Court)",
+    "body": "Dana,\n\nWe attended today. Belt was loose; tension adjusted. Also noted the deck needs lubrication.\n\nNo parts required.\n\nInvoice will follow.\n\n-PeakFit Tech"
+  },
+  {
+    "id": "t-1026-3",
+    "threadId": "t-1026",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "service@harborlocksmith.example",
+    "date": "May 14",
+    "subject": "RE: Quote request: bike room latch/strike adjustment",
+    "body": "Confirmed for Fri May 15, 10-12. Please check in with concierge.\n\n-Dana"
+  },
+  {
+    "id": "t-1026-2",
+    "threadId": "t-1026",
+    "sender": "Harbor Locksmith",
+    "to": "manager@maplecourt.example",
+    "date": "May 14",
+    "subject": "RE: Quote request: bike room latch/strike adjustment",
+    "body": "Hi Dana,\n\nWe can attend Fri May 15 between 10-12.\n\nEstimate: $240 + HST (adjustment); parts extra if the closer is failing.\n\n-Harbor Locksmith"
+  },
+  {
+    "id": "t-1026-1",
+    "threadId": "t-1026",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "service@harborlocksmith.example",
+    "date": "May 14",
+    "subject": "Quote request: bike room latch/strike adjustment",
+    "body": "Hi,\n\nCan you quote/confirm availability to adjust/repair the bike room door latch (P2) - it's not latching consistently.\n\nAccess via concierge.\n\nThanks,\nDana"
+  },
+  {
+    "id": "t-1025-2",
+    "threadId": "t-1025",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner119@maplecourt.example",
+    "date": "May 14",
+    "subject": "RE: Bike room door not latching",
+    "body": "Thanks. We'll have our locksmith attend and we'll ask concierge to check/secure the door in the interim.\n\n-Dana"
+  },
+  {
+    "id": "t-1025-1",
+    "threadId": "t-1025",
+    "sender": "J. Plourde (Unit 119)",
+    "to": "manager@maplecourt.example",
+    "date": "May 13",
+    "subject": "Bike room door not latching",
+    "body": "Hi,\n\nThe bike room door (P2) doesn't latch again. It's just swinging.\n\nCan someone fix it? I'm worried bikes will get stolen.\n\nUnit 119"
+  },
+  {
+    "id": "t-1019-2",
+    "threadId": "t-1019",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner829@maplecourt.example",
+    "date": "May 13",
+    "subject": "RE: Pool room humidity / condensation",
+    "body": "Thanks. We'll have our HVAC contractor check the pool exhaust fan and dehumidification settings.\n\nIf you notice any standing water or visible mold, please let us know right away.\n\n-Dana"
+  },
+  {
+    "id": "t-1019-1",
+    "threadId": "t-1019",
+    "sender": "Unit 829 Owner",
+    "to": "manager@maplecourt.example",
+    "date": "May 13",
+    "subject": "Pool room humidity / condensation",
+    "body": "Hi,\n\nNot sure who to tell, but the pool room windows were dripping today and it smelled kind of musty. Is the fan working?\n\nUnit 829"
+  },
+  {
+    "id": "t-1033-1",
+    "threadId": "t-1033",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "May 12",
+    "subject": "Re: Fire alarm inspection May 12 - minor items",
+    "body": "Board,\n\nFYI from Ember's inspection today: one pull station cover is loose (main floor corridor) and panel battery is low capacity (they recommend replacement within 60 days).\n\nLikely minor cost; I'll forward the report once received.\n\n-Dana"
+  },
+  {
+    "id": "t-1013-6",
+    "threadId": "t-1013",
+    "sender": "Ember Fire Systems",
+    "to": "manager@maplecourt.example",
+    "date": "May 12",
+    "subject": "RE: Fire alarm panel inspection - access issue",
+    "body": "Thanks. Inspection complete.\n\nTwo minor items noted:\n- one pull station cover loose (main floor corridor)\n- panel battery showing low capacity (recommend replacement within 60 days)\n\nWe'll send report by end of week.\n\n-Ember Scheduling"
+  },
+  {
+    "id": "t-1013-5",
+    "threadId": "t-1013",
+    "sender": "Front Desk (Concierge)",
+    "to": "manager@maplecourt.example",
+    "date": "May 12",
+    "subject": "Re: Fire alarm panel inspection - access issue",
+    "body": "Escorted Ember Fire to panel room. All set.\n\n-Front Desk"
+  },
+  {
+    "id": "t-1013-4",
+    "threadId": "t-1013",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "concierge@maplecourt.example",
+    "date": "May 12",
+    "subject": "RE: Fire alarm panel inspection - access issue",
+    "body": "Can you please escort Ember Fire to the fire panel room now? They're waiting in the lobby.\n\nThanks,\nDana"
+  },
+  {
+    "id": "t-1013-3",
+    "threadId": "t-1013",
+    "sender": "Ember Fire Systems",
+    "to": "manager@maplecourt.example",
+    "date": "May 12",
+    "subject": "RE: Fire alarm panel inspection - access issue",
+    "body": "Hi Dana,\n\nTech is on site but can't access the mechanical corridor (door is locked). Can concierge escort?\n\nThanks,\nEmber Scheduling"
+  },
+  {
+    "id": "t-1017-3",
+    "threadId": "t-1017",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "service@peakfitmaintenance.example",
+    "date": "May 12",
+    "subject": "RE: Quote request: gym equipment service call (Maple Court)",
+    "body": "Confirmed for Thu May 14, 9-11. Please check in with concierge.\n\n-Dana"
+  },
+  {
+    "id": "t-1017-2",
+    "threadId": "t-1017",
+    "sender": "PeakFit Maintenance",
+    "to": "manager@maplecourt.example",
+    "date": "May 12",
+    "subject": "RE: Quote request: gym equipment service call (Maple Court)",
+    "body": "Hi Dana,\n\nWe can attend Thu May 14 (between 9-11).\n\nService call: $295 + parts if needed.\n\nPlease confirm.\n\n-PeakFit Service"
+  },
+  {
+    "id": "t-1017-1",
+    "threadId": "t-1017",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "service@peakfitmaintenance.example",
+    "date": "May 12",
+    "subject": "Quote request: gym equipment service call (Maple Court)",
+    "body": "Hi,\n\nCan you quote/confirm availability for a service call for the gym treadmill (belt slipping). Likely tension adjustment and inspection.\n\nPlease coordinate access via concierge.\n\nThanks,\nDana"
+  },
+  {
+    "id": "t-1016-2",
+    "threadId": "t-1016",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner615@maplecourt.example",
+    "date": "May 12",
+    "subject": "RE: Gym treadmill belt slipping (2nd floor amenity)",
+    "body": "Thanks for flagging. We'll have our fitness equipment service vendor attend this week.\n\nIn the meantime, we'll put an \"out of service\" sign on that unit.\n\n-Dana"
+  },
+  {
+    "id": "t-1016-1",
+    "threadId": "t-1016",
+    "sender": "Unit 615 Owner",
+    "to": "manager@maplecourt.example",
+    "date": "May 12",
+    "subject": "Gym treadmill belt slipping (2nd floor amenity)",
+    "body": "Hi,\n\nThe treadmill in the gym (left one) feels like the belt is slipping. It's kind of unsafe.\n\nCan you get someone to look at it?\n\nThanks,\nUnit 615"
+  },
+  {
+    "id": "t-1018-1",
+    "threadId": "t-1018",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "May 11",
+    "subject": "Fire alarm inspection May 12 - please notify residents (FYI)",
+    "body": "Board,\n\nFYI: Ember Fire Systems will be on site Tue May 12 (10-1) for annual fire alarm inspection. No disruption expected beyond technician access to fire panel room.\n\n-Dana"
+  },
+  {
+    "id": "t-1015-2",
+    "threadId": "t-1015",
+    "sender": "Front Desk (Concierge)",
+    "to": "manager@maplecourt.example",
+    "date": "May 11",
+    "subject": "RE: Water shutdown May 13 - please post signage",
+    "body": "Posted lobby + both elevator cabs. Will mention at desk.\n\n-Front Desk"
+  },
+  {
+    "id": "t-1015-1",
+    "threadId": "t-1015",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "concierge@maplecourt.example",
+    "date": "May 11",
+    "subject": "Water shutdown May 13 - please post signage",
+    "body": "Morning,\n\nPlease post the water shutdown notice in the lobby + elevators today. Also, can you remind residents at the desk if they ask.\n\nThanks,\nDana"
+  },
+  {
+    "id": "t-1014-3",
+    "threadId": "t-1014",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner302@maplecourt.example",
+    "date": "May 10",
+    "subject": "RE: NOTICE: Planned domestic water shutdown - May 13",
+    "body": "Hi,\n\nDomestic only. Fire protection systems are separate and will remain in service.\n\n-Dana"
+  },
+  {
+    "id": "t-1014-2",
+    "threadId": "t-1014",
+    "sender": "Unit 302 Owner",
+    "to": "manager@maplecourt.example",
+    "date": "May 10",
+    "subject": "RE: NOTICE: Planned domestic water shutdown - May 13",
+    "body": "Hi,\n\nThanks for the notice. Will water also be off for the sprinkler system / fire protection or is it domestic only?\n\nUnit 302"
+  },
+  {
+    "id": "t-1014-1",
+    "threadId": "t-1014",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "residents@maplecourt.example",
+    "date": "May 10",
+    "subject": "NOTICE: Planned domestic water shutdown - May 13",
+    "body": "Hello residents,\n\nPlease be advised that domestic water will be shut down temporarily to replace a mechanical room isolation valve.\n\nDate: Wed May 13\nTime: 10:00am-2:00pm (approx.)\n\nDuring this window:\n- water will be unavailable in suites\n- please avoid running laundry/dishwashers\n\nManagement does not anticipate suite access. Access will only be required if an issue is identified.\n\nThank you,\nMaple Court Management"
+  },
+  {
+    "id": "t-1012-4",
+    "threadId": "t-1012",
+    "sender": "Priya Raman (Board President)",
+    "to": "manager@maplecourt.example",
+    "date": "May 10",
+    "subject": "RE: Water shutdown notice draft - edits",
+    "body": "Dana,\n\nDraft looks fine. Two edits:\n- specify \"no laundry/dishwasher use during shutdown window\"\n- add \"management will require access to suites only if an issue is identified\" (to reduce panic)\n\nApproved to distribute once updated.\n\n-Priya Raman, Board President"
+  },
+  {
+    "id": "t-1012-3",
+    "threadId": "t-1012",
+    "sender": "NorthShore Plumbing",
+    "to": "manager@maplecourt.example",
+    "date": "May 10",
+    "subject": "Quote: domestic water isolation valve replacement",
+    "body": "Dana,\n\nQuote attached.\n\nScope: replace domestic water isolation valve (mechanical room), including drain-down/refill, test.\n\nPrice: $3,950 + HST.\nEarliest date: Wed May 13 (shutdown window 10:00-2:00).\n\nLet us know if you want us to proceed.\n\n-NorthShore Plumbing"
+  },
+  {
+    "id": "t-1012-2",
+    "threadId": "t-1012",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "service@northshoreplumbing.example",
+    "date": "May 9",
+    "subject": "Plumbing - quote for valve replacement (Maple Court)",
+    "body": "Hi,\n\nCan you confirm pricing and availability for replacing the domestic water isolation valve (mechanical room) we discussed on site?\n\nWe'd like a firm date next week if possible.\n\nThanks,\nDana"
+  },
+  {
+    "id": "t-1012-1",
+    "threadId": "t-1012",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "May 9",
+    "subject": "Water shutdown notice draft - review before sending",
+    "body": "Board,\n\nAttached is a draft notice for a planned domestic water shutdown (valve replacement) next week.\n\nPlease review wording (especially the access language) and confirm OK to distribute.\n\n-Dana"
+  },
+  {
+    "id": "t-1030-1",
+    "threadId": "t-1030",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "May 7",
+    "subject": "Newsletter draft - May (for review)",
+    "body": "Board,\n\nAttached draft May newsletter (1 page). Includes reminders re: water shutdown, move-in bookings, and recycling contamination.\n\nPlease send any edits by end of day Friday.\n\n-Dana"
+  },
+  {
+    "id": "t-1029-2",
+    "threadId": "t-1029",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "dispatch@towerwaste.example",
+    "date": "May 7",
+    "subject": "RE: Re: Garbage chute jam - 6th floor (after-hours fee)",
+    "body": "Please attend tomorrow 8-10am (standard rate). Concierge will provide access.\n\nThanks,\nDana"
+  },
+  {
+    "id": "t-1029-1",
+    "threadId": "t-1029",
+    "sender": "Tower Waste",
+    "to": "manager@maplecourt.example",
+    "date": "May 7",
+    "subject": "Re: Garbage chute jam - 6th floor (after-hours fee)",
+    "body": "Dana,\n\nWe can send a tech tonight, but after-hours callout applies ($380 + HST). Otherwise first thing tomorrow (8-10am) at standard rate.\n\nPlease advise.\n\n-Tower Waste Dispatch"
+  },
+  {
+    "id": "t-1028-2",
+    "threadId": "t-1028",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "dispatch@towerwaste.example",
+    "date": "May 7",
+    "subject": "RE: Garbage chute jam - 6th floor",
+    "body": "Hi,\n\nPlease dispatch for a garbage chute jam (6th floor intake). Concierge on site.\n\nThanks,\nDana"
+  },
+  {
+    "id": "t-1028-1",
+    "threadId": "t-1028",
+    "sender": "Front Desk (Concierge)",
+    "to": "manager@maplecourt.example",
+    "date": "May 6",
+    "subject": "Garbage chute jam - 6th floor",
+    "body": "Heads up: garbage chute jammed on 6th floor again. Residents are leaving bags by the door.\n\nCan we call it in?\n\n-Front Desk"
+  },
+  {
+    "id": "t-1023-2",
+    "threadId": "t-1023",
+    "sender": "Front Desk (Concierge)",
+    "to": "owner402@maplecourt.example, manager@maplecourt.example",
+    "date": "May 6",
+    "subject": "RE: Move-in elevator booking request (Unit 402)",
+    "body": "Hi Unit 402,\n\nWe can book elevator padding for Sat May 9, 2:00-3:30pm. Please ensure the movers use the loading area and do not block the fire route.\n\nDeposit is handled through management (refundable).\n\n-Front Desk"
+  },
+  {
+    "id": "t-1023-1",
+    "threadId": "t-1023",
+    "sender": "Unit 402 Owner",
+    "to": "concierge@maplecourt.example, manager@maplecourt.example",
+    "date": "May 6",
+    "subject": "Move-in elevator booking request (Unit 402)",
+    "body": "Hi,\n\nCan I book the elevator for a move-in on Sat May 9 around 2pm? We'll have a small truck.\n\nUnit 402"
+  },
+  {
+    "id": "t-1027-2",
+    "threadId": "t-1027",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner210@maplecourt.example",
+    "date": "May 6",
+    "subject": "RE: Unit 210 EV charger - preferred model",
+    "body": "Hi Sam,\n\nThanks - please send the spec sheet.\n\nOn billing: we don't have a finalized model yet (this is part of what we're bringing to the Board). Common options are (a) owner sub-metering, or (b) flat monthly charge + periodic true-up.\n\nWe've scheduled an electrical feasibility review first.\n\n-Dana"
+  },
+  {
+    "id": "t-1027-1",
+    "threadId": "t-1027",
+    "sender": "Sam Odei (Unit 210)",
+    "to": "manager@maplecourt.example",
+    "date": "May 6",
+    "subject": "Unit 210 EV charger - preferred model",
+    "body": "Hi Dana,\n\nFollowing up - I'm looking at a 40A Level 2 charger (hardwired). If it matters, I can share the spec sheet.\n\nAlso, would I be paying hydro directly or through the condo?\n\nThanks,\nSam (Unit 210)"
+  },
+  {
+    "id": "t-1022-4",
+    "threadId": "t-1022",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "service@brightwireelectric.example",
+    "date": "May 5",
+    "subject": "RE: EV charger - electrician availability / rough budget",
+    "body": "Approved. Please book the feasibility review for Fri May 8 (AM). Concierge will provide access.\n\nThanks,\nDana"
+  },
+  {
+    "id": "t-1022-3",
+    "threadId": "t-1022",
+    "sender": "Priya Raman (Board President)",
+    "to": "manager@maplecourt.example",
+    "date": "May 5",
+    "subject": "Re: EV charger - feasibility review approved",
+    "body": "Approved to proceed with the feasibility review ($650 + HST).\n\nPlease ensure the report includes any recommended policy items (metering, insurance, ongoing maintenance responsibility).\n\n-Priya"
+  },
+  {
+    "id": "t-1022-2",
+    "threadId": "t-1022",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "May 4",
+    "subject": "Re: EV charger - electrician availability / rough budget",
+    "body": "Board,\n\nFor the Unit 210 EV charger request: BrightWire Electric can complete an initial feasibility site review/report for $650 + HST.\n\nPlease confirm approval to proceed with the feasibility review as a first step (no installation).\n\n-Dana"
+  },
+  {
+    "id": "t-1022-1",
+    "threadId": "t-1022",
+    "sender": "BrightWire Electric",
+    "to": "manager@maplecourt.example",
+    "date": "May 4",
+    "subject": "EV charger - electrician availability / rough budget",
+    "body": "Hi Dana,\n\nPer your voicemail-yes, we can do an initial site review for EV charger feasibility.\n\nBudget for site review/report: $650 + HST.\nEarliest: Fri May 8 (AM) or Mon May 11 (PM).\n\nThis would be for capacity review and routing only (no installation).\n\n-BrightWire Electric"
+  },
+  {
+    "id": "t-1032-1",
+    "threadId": "t-1032",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "May 4",
+    "subject": "Re: Final notice - arrears outstanding (Unit 312) (payment plan request)",
+    "body": "Board,\n\nUnit 312 has responded requesting a payment plan after the final notice.\n\nProposed (verbal): 50% this week, balance by end of month. I will request dates in writing.\n\nPlease advise if the Board will accept a short-term payment plan provided they resume current payments.\n\n-Dana"
+  },
+  {
+    "id": "t-1020-3",
+    "threadId": "t-1020",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner312@maplecourt.example, accounts@maplecourt.example",
+    "date": "May 4",
+    "subject": "RE: Re: Final notice - arrears outstanding (Unit 312)",
+    "body": "Thanks for the reply.\n\nPlease email proposed dates/amounts. Management can recommend a payment plan to the Board, but the account must remain current going forward.\n\nFor transparency, I'm looping in Accounts.\n\n-Dana"
+  },
+  {
+    "id": "t-1020-2",
+    "threadId": "t-1020",
+    "sender": "Unit 312 Owner",
+    "to": "accounts@maplecourt.example, manager@maplecourt.example",
+    "date": "May 4",
+    "subject": "Re: Final notice - arrears outstanding (Unit 312)",
+    "body": "I got this. I have been out of country and not seeing mail.\n\nCan I do a payment plan? I can pay half this week and rest end of month.\n\nPlease advise.\n\nUnit 312"
+  },
+  {
+    "id": "t-1013-2",
+    "threadId": "t-1013",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "scheduling@emberfiresystems.example",
+    "date": "May 3",
+    "subject": "RE: Fire alarm panel: annual inspection booking",
+    "body": "Confirmed for May 12, 10-1.\n\nPlease check in with concierge on arrival. Access to fire panel room is via the mechanical corridor; concierge will escort.\n\n-Dana"
+  },
+  {
+    "id": "t-1013-1",
+    "threadId": "t-1013",
+    "sender": "Ember Fire Systems",
+    "to": "manager@maplecourt.example",
+    "date": "May 3",
+    "subject": "Fire alarm panel: annual inspection booking",
+    "body": "Good morning,\n\nWe're due for Maple Court's annual fire alarm inspection.\n\nProposed date: Tue May 12 (10:00-1:00). Please confirm access to the fire panel room and a point of contact.\n\nRegards,\nEmber Fire Systems Scheduling"
+  },
+  {
+    "id": "t-1009-3",
+    "threadId": "t-1009",
+    "sender": "Vertex Elevators",
+    "to": "manager@maplecourt.example",
+    "date": "May 2",
+    "subject": "Re: Elevator #2 - scheduled maintenance May 6 (lobby signage)",
+    "body": "Sure.\n\n\"Elevator #2 will be undergoing scheduled maintenance on Wed May 6 from 9:00am-12:00pm. Service may be intermittent during this window.\"\n\n-Vertex Service"
+  },
+  {
+    "id": "t-1009-2",
+    "threadId": "t-1009",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "service@vertexelevators.example",
+    "date": "May 2",
+    "subject": "RE: Elevator #2 - scheduled maintenance May 6 (lobby signage)",
+    "body": "Thanks.\n\nCan you also provide a short lobby sign blurb (1-2 sentences) we can post for residents?\n\n-Dana"
+  },
+  {
+    "id": "t-1009-1",
+    "threadId": "t-1009",
+    "sender": "Vertex Elevators",
+    "to": "manager@maplecourt.example",
+    "date": "May 2",
+    "subject": "Elevator #2 - scheduled maintenance May 6 (9:00-12:00)",
+    "body": "Hello,\n\nConfirming planned preventative maintenance for Elevator #2:\n\nDate: Wed May 6\nTime: 9:00-12:00\n\nElevator may be out of service intermittently.\n\nRegards,\nVertex Elevators Service"
+  },
+  {
+    "id": "t-1021-1",
+    "threadId": "t-1021",
+    "sender": "Accounts ledger",
+    "to": "owner808@maplecourt.example, manager@maplecourt.example",
+    "date": "May 1",
+    "subject": "Final notice - arrears outstanding (Unit 808)",
+    "body": "Hello,\n\nFINAL NOTICE.\n\nOur records show your account remains in arrears. If payment is not received within 10 days, the Corporation may proceed with lien registration.\n\nCurrent balance: $4,200.00\n\nPlease contact management.\n\nAccounts\nMaple Court Condominiums"
+  },
+  {
+    "id": "t-1020-1",
+    "threadId": "t-1020",
+    "sender": "Accounts ledger",
+    "to": "owner312@maplecourt.example, manager@maplecourt.example",
+    "date": "May 1",
+    "subject": "Final notice - arrears outstanding (Unit 312)",
+    "body": "Hello,\n\nFINAL NOTICE.\n\nYour account remains in arrears. If payment is not received within 10 days, the Corporation may proceed with lien registration in accordance with applicable condominium processes.\n\nCurrent balance: $5,040.00\n\nPlease contact management immediately.\n\nAccounts\nMaple Court Condominiums"
+  },
+  {
+    "id": "t-1007-3",
+    "threadId": "t-1007",
+    "sender": "Board Treasurer",
+    "to": "manager@maplecourt.example",
+    "date": "May 1",
+    "subject": "Re: Arrears ledger summary - engage counsel?",
+    "body": "Dana,\n\nFor Units 312 and 808, please proceed with final notice + lien warning.\n\nBefore engaging counsel, can you confirm whether any payment plans were requested historically? (I don't recall.)\n\n-Treasurer"
+  },
+  {
+    "id": "t-1007-2",
+    "threadId": "t-1007",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "Apr 30",
+    "subject": "Re: Arrears ledger summary - request direction",
+    "body": "Board,\n\nAccounts summary attached below.\n\nTotal arrears (Units 312 + 808) as of Apr 30: $9,240 (60+ days). Two notices sent to each; no responses.\n\nPlease confirm whether you want management to:\n- send a final notice + lien warning, and/or\n- refer to our collections lawyer for lien registration.\n\n-Dana"
+  },
+  {
+    "id": "t-1007-1",
+    "threadId": "t-1007",
+    "sender": "Accounts ledger",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 30",
+    "subject": "Arrears ledger summary - Units 312 + 808 (Apr 30)",
+    "body": "Dana,\n\nPer-unit breakdown, further to the month-end summary:\n\n- Unit 312: $5,040.00 outstanding (Feb + Mar unpaid; partial April received)\n- Unit 808: $4,200.00 outstanding (Feb + Mar unpaid; one partial payment of $1,320 after the second notice)\n\nTotal: $9,240.00 (60+ days).\n\nBoth units: Notice #1 and #2 sent; no replies.\n\nAccounts"
+  },
+  {
     "id": "arrears-04",
     "threadId": "arrears",
     "sender": "Accounts ledger",
@@ -16,6 +520,42 @@
     "date": "Apr 28",
     "subject": "Balcony season reminders",
     "body": "Hello Maple Court,\n\nWith the warm weather here, a few reminders: no BBQs other than electric per the rules, planters must sit inside the railing, and please don't shake mats or brooms over the edge, it lands on your neighbours' balconies.\n\nThanks all,\nDana"
+  },
+  {
+    "id": "t-1031-4",
+    "threadId": "t-1031",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "Apr 27",
+    "subject": "Update: unidentified device - assessed by police",
+    "body": "Board,\n\nUpdate on this morning's stairwell item:\n\nPolice attended and assessed on site. It was determined to be a personal GPS tracker/power bank assembly (not explosive). They removed it.\n\nNext steps we're taking:\n- request camera review for roof access landing and adjacent corridors (where coverage exists)\n- remind staff: do not handle unknown devices; isolate + call for guidance\n- review roof access key control log (maintenance + contractors)\n\nNo resident disruption required.\n\n-Dana"
+  },
+  {
+    "id": "t-1031-3",
+    "threadId": "t-1031",
+    "sender": "Priya Raman (Board President)",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 27",
+    "subject": "RE: Unidentified device found on roof access landing",
+    "body": "Dana,\n\nAgreed. Please proceed as you outlined.\n\nIf police recommend evacuation/lockdown, do it.\n\nAlso: after resolution, I want an incident summary (what it was, how it got there, any camera review, and policy changes).\n\n-Priya"
+  },
+  {
+    "id": "t-1031-2",
+    "threadId": "t-1031",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "concierge@maplecourt.example, boardchair@maplecourt.example",
+    "date": "Apr 27",
+    "subject": "RE: Unidentified device found on roof access landing",
+    "body": "Do not handle.\n\nPlease:\n1) Keep residents away from the area.\n2) Call non-emergency police for guidance (tell them it's an unknown electronic device in a secured stairwell).\n3) Confirm whether our security contractor can attend ASAP.\n\nI'm looping in the Board Chair.\n\n-Dana"
+  },
+  {
+    "id": "t-1031-1",
+    "threadId": "t-1031",
+    "sender": "Front Desk (Concierge)",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 27",
+    "subject": "Unidentified device found on roof access landing",
+    "body": "Morning,\n\nOdd one: housekeeping found a small black plastic box with wires (about the size of a paperback) taped under the handrail on the roof access landing (Level 12 stairwell).\n\nNo labels. It has a blinking light. We did not touch it beyond taking a photo.\n\nWhat do you want us to do?\n\n-Front Desk"
   },
   {
     "id": "window-01",
@@ -63,6 +603,33 @@
     "body": "Priya,\n\nBoth inspection quotes for the P1 membrane are in, forwarding below. Short version: Rideau says $42k for a standard recoat and saw nothing structural. Capital came in at $51k and flagged staining they think could mean slab deterioration underneath - they want a structural engineer to look before anyone recoats anything.\n\nThe two reports genuinely disagree, so I think this has to go to the board in May rather than me just picking one.\n\nDana"
   },
   {
+    "id": "t-1024-1",
+    "threadId": "t-1024",
+    "sender": "Priya Raman (Board President)",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 20",
+    "subject": "Re: Garage membrane quotes - structural engineer suggestion",
+    "body": "Dana,\n\nGiven the discrepancy between the two contractors, my view is we likely need a structural engineer's opinion on substrate condition before spending on a coating that could fail.\n\nLet's put this on the May agenda for a proper decision rather than settle it by email. No harm lining up 1-2 engineer names for reference in the meantime.\n\n-Priya"
+  },
+  {
+    "id": "t-1001-8",
+    "threadId": "t-1001",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "Apr 19",
+    "subject": "Fwd: Garage membrane quotes - request guidance",
+    "body": "Board,\n\nForwarding two inspection/repair budgets for the P1 leak area.\n\n1) Rideau Roofing (Apr 12): $42,000 recoat; notes no structural concerns.\n2) Capital Membrane (Apr 18): $51,000; flags possible substrate issues and recommends a structural engineer first.\n\nQuestion for direction: do you want us to proceed to get a structural engineer opinion before selecting a scope, or proceed with the lower-cost recoat approach?\n\n-Dana"
+  },
+  {
+    "id": "t-1001-7",
+    "threadId": "t-1001",
+    "sender": "Capital Membrane",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 18",
+    "subject": "Re: Maple Court P1 leak - findings + budget",
+    "body": "Dana,\n\nThanks for the site access; further to our inspection report sent earlier today.\n\nWe can quote a membrane recoat; however, we observed efflorescence and hollow-sounding areas near P1-C4 that may indicate slab deterioration below the topping.\n\nRecommendation before any coating:\n- Engage a structural engineer to review and confirm substrate condition.\n\nBudget for recoat (assuming substrate OK): $51,000 + HST.\n\nRegards,\nSylvie Tran\nCapital Membrane Ltd."
+  },
+  {
     "id": "membrane-06",
     "threadId": "membrane",
     "sender": "Capital Membrane",
@@ -81,6 +648,42 @@
     "body": "Hi Dana,\n\nConfirming spring cleanup for Maple Court the week of May 1st. Crew of four, two days. Please let us know if there are any specific areas of focus this year, otherwise we'll follow last season's scope.\n\nGreenScape crew"
   },
   {
+    "id": "t-1008-2",
+    "threadId": "t-1008",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "dispatch@greenscape.example",
+    "date": "Apr 14",
+    "subject": "RE: Landscaping schedule - spring cleanup (Maple Court)",
+    "body": "Thanks-please avoid blocking the main entrance ramp between 8:30-9:30 (school drop-off traffic). Otherwise OK.\n\n-Dana"
+  },
+  {
+    "id": "t-1008-1",
+    "threadId": "t-1008",
+    "sender": "GreenScape Landscaping",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 14",
+    "subject": "Landscaping schedule - spring cleanup (Maple Court)",
+    "body": "Hi,\n\nSpring cleanup is booked for Thurs Apr 16. Crew onsite 8:00-2:00.\n\nWe'll be blowing out the beds and doing the first cut.\n\nThanks,\nGreenScape Dispatch"
+  },
+  {
+    "id": "t-1006-2",
+    "threadId": "t-1006",
+    "sender": "Accounts ledger",
+    "to": "owner808@maplecourt.example",
+    "date": "Apr 14",
+    "subject": "Second notice - arrears outstanding (Unit 808)",
+    "body": "Hello,\n\nWe have not received payment or a response to our Mar 15 notice.\n\nBalance owing as of today: $5,520.00.\n\nPlease contact management to arrange payment.\n\nAccounts\nMaple Court Condominiums"
+  },
+  {
+    "id": "t-1005-2",
+    "threadId": "t-1005",
+    "sender": "Accounts ledger",
+    "to": "owner312@maplecourt.example",
+    "date": "Apr 14",
+    "subject": "Second notice - arrears outstanding (Unit 312)",
+    "body": "Hello,\n\nWe have not received payment or a response to our notice dated Mar 15.\n\nBalance owing as of today: $6,240.00 (60+ days past due if not resolved by month end).\n\nPlease contact us by Friday.\n\nAccounts\nMaple Court Condominiums"
+  },
+  {
     "id": "arrears-03",
     "threadId": "arrears",
     "sender": "Accounts ledger",
@@ -88,6 +691,15 @@
     "date": "Apr 14",
     "subject": "RE: 312 / 808 - second notices",
     "body": "Second notices went out to both 312 and 808 today, registered mail this time. Still nothing back from the first round. 312's March and April are now both outstanding, 808 the same. Will include totals in the month-end summary.\n\nAccounting"
+  },
+  {
+    "id": "t-1001-6",
+    "threadId": "t-1001",
+    "sender": "Rideau Roofing",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 12",
+    "subject": "Re: Garage membrane inspection - quote attached",
+    "body": "Hi Dana,\n\nThank you for meeting us on site. Summary ahead of the formal quote (sent separately this morning):\n\nFindings: localized membrane wear and cracks at the slab joints. No structural concerns observed.\n\nOption A (recommended): Prep + recoat traffic membrane across the full P1 level and reseal joints.\nBudget: $42,000 + HST.\nSchedule: 2-3 working days, weather dependent.\n\nLet me know if you'd like us to formalize the scope.\n\nRegards,\nGord Belanger\nRideau Roofing"
   },
   {
     "id": "membrane-05",
@@ -117,6 +729,15 @@
     "body": "Thank you Marc. I'll take the renewal offer to the board at the May meeting and confirm after. Appreciate you holding the rate.\n\nDana"
   },
   {
+    "id": "t-1004-3",
+    "threadId": "t-1004",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "Apr 9",
+    "subject": "EV charger request - Unit 210 (board direction needed)",
+    "body": "Board,\n\nOwner request: Unit 210 would like to install a Level 2 EV charger at stall P2-14.\n\nWe don't currently have a formal policy for owner-paid EV chargers (metering, load management, insurance, ongoing maintenance responsibility, etc.).\n\nRequest direction: do you want management to draft an EV charger policy for review, or engage an electrical consultant first to confirm available capacity?\n\n-Dana"
+  },
+  {
     "id": "ev210-03",
     "threadId": "ev210",
     "sender": "Sam Odei (Unit 210)",
@@ -124,6 +745,51 @@
     "date": "Apr 9",
     "subject": "EV Charger Request",
     "body": "Hi Dana,\n\nFollowing up on my note from last month - I went ahead and ordered the car, delivery in June. I'd like to formally request approval to install a Level 2 EV charger in my parking space (P2-14). My electrician says it's straightforward from the panel on that level.\n\nPlease let me know the required forms or process, happy to fill in whatever is needed.\n\nSam"
+  },
+  {
+    "id": "t-1001-5",
+    "threadId": "t-1001",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "quotes@capitalmembrane.example",
+    "date": "Apr 8",
+    "subject": "Garage membrane - request for inspection quote (Maple Court Condos)",
+    "body": "Hi Capital Membrane team,\n\nFollowing up on our March 26 request re: the recurring leakage in the P1 garage (suspected deck membrane failure). Checking where your inspection quote stands.\n\nBuilding: Maple Court Condominiums.\nAccess: Weekdays 9-4 with concierge.\n\nThanks,\nDana Whitfield"
+  },
+  {
+    "id": "t-1001-4",
+    "threadId": "t-1001",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "service@rideauroofing.example",
+    "date": "Apr 8",
+    "subject": "Garage membrane - request for inspection quote (Maple Court Condos)",
+    "body": "Hello,\n\nFollowing up on our March 26 request: we still have recurring water ingress in P1 parking (near column P1-C4, by spot 41). Checking where your site visit and inspection quote stand.\n\nPlease confirm earliest availability.\n\nRegards,\nDana Whitfield\nProperty Manager"
+  },
+  {
+    "id": "t-1003-3",
+    "threadId": "t-1003",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "Apr 8",
+    "subject": "Reserve fund study update - approval request",
+    "body": "Board,\n\nCardinal Engineering advises our reserve fund study update is due this fiscal year.\n\nProposal: $6,800 + HST (field review + updated funding plan). 6-8 week turnaround after site visit.\n\nFlagging for the May agenda; once approved we can lock a site date.\n\n-Dana"
+  },
+  {
+    "id": "t-1003-2",
+    "threadId": "t-1003",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "projects@cardinaleng.example",
+    "date": "Apr 7",
+    "subject": "RE: Reserve fund study renewal - Maple Court Condominiums",
+    "body": "Hi Marc,\n\nThanks. Please send the proposal/engagement letter.\n\nWe'll need board approval before confirming a site date, but late April/early May is likely.\n\nRegards,\nDana"
+  },
+  {
+    "id": "t-1003-1",
+    "threadId": "t-1003",
+    "sender": "Cardinal Engineering",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 7",
+    "subject": "Reserve fund study renewal - Maple Court Condominiums",
+    "body": "Good morning,\n\nFurther to our renewal letter sent this morning: the offer covers the field review + updated funding plan at $6,800 + HST as quoted. Typical turnaround is 6-8 weeks from site visit.\n\nIf you'd like, we can hold a provisional site date in late April.\n\nRegards,\nMarc Aubin, P.Eng.\nCardinal Engineering"
   },
   {
     "id": "reserve-02",
@@ -162,6 +828,15 @@
     "body": "Helen,\n\nI hear you, and you're right that this has gone on too long. I've been unable to reach the owner of 511 by phone or mail since March. I'm escalating this to the board at the May meeting as a compliance matter so they can decide on formal steps. I'll keep you posted on the outcome.\n\nDana"
   },
   {
+    "id": "t-1002-6",
+    "threadId": "t-1002",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "board@maplecourt.example",
+    "date": "Apr 3",
+    "subject": "RE: Noise complaint - still ongoing (Unit 504)",
+    "body": "Board,\n\nFYI / guidance requested.\n\nWe have repeated noise complaints from Unit 504 regarding Unit 511 (Feb 5-6, Feb 27-28, Mar 14-15, Apr 2-3). Concierge has intervened in person at least once.\n\nWe can issue a second formal compliance notice. If escalation is needed (legal letter / chargeback for security attendance), please confirm how you'd like us to proceed.\n\n-Dana"
+  },
+  {
     "id": "noise511-06",
     "threadId": "noise511",
     "sender": "Helen Moss (Unit 504)",
@@ -171,6 +846,24 @@
     "body": "Dana,\n\nThis is my fourth complaint since February about late-night noise and the constant turnover at Unit 511. Different people every weekend, suitcases in the hallway at 1am, and last night the music went until past 2 again. I strongly suspect it's being used as a short-term rental. I've been patient but this is affecting my sleep and my work.\n\nCan management please look into this properly? What are my options if this continues?\n\nHelen Moss\nUnit 504"
   },
   {
+    "id": "t-1002-5",
+    "threadId": "t-1002",
+    "sender": "Helen Moss (Unit 504)",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 3",
+    "subject": "Noise complaint - still ongoing (Unit 504)",
+    "body": "Hi,\n\nLast night was the worst yet (Apr 2, well past 2am). I called downstairs and they said they \"spoke to them\" but it didn't stop.\n\nI'm asking again: what is the building doing about Unit 511?\n\n-Helen"
+  },
+  {
+    "id": "t-1011-2",
+    "threadId": "t-1011",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner116@maplecourt.example",
+    "date": "Apr 1",
+    "subject": "RE: Parking pass request - visitor parking (Unit 116)",
+    "body": "Hi,\n\nYes-please pick up the passes at the front desk after 2pm today.\n\nReminder: visitor passes must be displayed on the dashboard; max 1 pass per suite at a time.\n\nRegards,\nDana"
+  },
+  {
     "id": "insurance-02",
     "threadId": "insurance",
     "sender": "Dana Whitfield (Manager)",
@@ -178,6 +871,15 @@
     "date": "Apr 1",
     "subject": "RE: certificate of insurance for lender",
     "body": "Hi, attached is the corporation's current certificate of insurance. If your lender needs specific wording they can contact our broker directly (details on the certificate) - that's usually faster than routing through me.\n\nDana"
+  },
+  {
+    "id": "t-1011-1",
+    "threadId": "t-1011",
+    "sender": "Unit 116 Owner",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 1",
+    "subject": "Parking pass request - visitor parking (Unit 116)",
+    "body": "Morning,\n\nMy parents are visiting this weekend. Can I get 2 visitor parking passes for Fri-Sun?\n\nUnit 116\n\nThanks"
   },
   {
     "id": "insurance-01",
@@ -225,6 +927,24 @@
     "body": "Dana it's been two weeks and the drip over spot 41 is now a steady trickle since the thaw started. There's a rust stain forming on the hood of my car. I moved to visitor parking but that's not a solution?? Please tell me someone is coming to look at this.\n\nRita"
   },
   {
+    "id": "t-1004-2",
+    "threadId": "t-1004",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner210@maplecourt.example",
+    "date": "Mar 23",
+    "subject": "RE: EV charger request - Unit 210",
+    "body": "Hi Sam,\n\nAs mentioned, yours is the first request of this kind here - no completed installations in Maple Court yet.\n\nIn general, the Board will need to approve:\n- electrical capacity review (engineer/electrician)\n- a licensed contractor for the work\n- a cost/ownership model (owner pays; metering; common element impacts)\n\nIf you can share the charger type you're considering (Level 2, amperage) and your stall number (thank you), we can start with an electrical feasibility check.\n\nRegards,\nDana"
+  },
+  {
+    "id": "t-1004-1",
+    "threadId": "t-1004",
+    "sender": "Sam Odei (Unit 210)",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 22",
+    "subject": "EV charger request - Unit 210",
+    "body": "Hi,\n\nFollowing up on my note from earlier this month - still weighing the EV purchase. Has anyone installed a charger in their spot? I'm in P2-14.\n\nIs the building allowing it? What's the process?\n\nThanks,\nSam (Unit 210)"
+  },
+  {
     "id": "dogwaste-02",
     "threadId": "dogwaste",
     "sender": "Dana Whitfield (Manager)",
@@ -261,6 +981,33 @@
     "body": "Dana,\n\nThird complaint now. Saturday night, noise until at least 1:30am, and this time I saw a lockbox zip-tied to the stairwell railing on our floor. That's for key handoffs, isn't it? Nobody who lives here does that.\n\nDates so far for your records: Feb 5-6 overnight, Feb 27-28 overnight, and now Mar 14-15.\n\nHelen"
   },
   {
+    "id": "t-1006-1",
+    "threadId": "t-1006",
+    "sender": "Accounts ledger",
+    "to": "owner808@maplecourt.example",
+    "date": "Mar 15",
+    "subject": "Past due common expenses - Unit 808 (Notice #1)",
+    "body": "Hello,\n\nThis is a reminder that your February and March common expense payments have not been received.\n\nBalance owing as of today: $2,760.00\n\nPlease remit payment within 7 days or contact management to discuss.\n\nAccounts\nMaple Court Condominiums"
+  },
+  {
+    "id": "t-1002-2",
+    "threadId": "t-1002",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner504@maplecourt.example",
+    "date": "Mar 15",
+    "subject": "RE: Noise complaint - Unit 504 re: Unit 511 (late night)",
+    "body": "Hi,\n\nThanks for letting us know. Can you share the dates/times (approx.) and whether the noise is from inside the suite vs. hallway?\n\nWe'll notify the resident of Unit 511 and remind them of the building's quiet hours.\n\nRegards,\nDana Whitfield"
+  },
+  {
+    "id": "t-1005-1",
+    "threadId": "t-1005",
+    "sender": "Accounts ledger",
+    "to": "owner312@maplecourt.example",
+    "date": "Mar 15",
+    "subject": "Past due common expenses - Unit 312 (Notice #1)",
+    "body": "Hello,\n\nOur records show your common expense payments for February and March have not been received.\n\nBalance owing as of today: $3,120.00\n\nPlease remit payment within 7 days or contact us if you believe this is an error.\n\nAccounts\nMaple Court Condominiums"
+  },
+  {
     "id": "arrears-02",
     "threadId": "arrears",
     "sender": "Accounts ledger",
@@ -270,6 +1017,60 @@
     "body": "First arrears notices went to Units 312 and 808 today by regular mail. 312 has now missed February and March; 808 missed February and made a partial $400 payment against March which doesn't cover it. Will flag again if no response by mid-April.\n\nAccounting"
   },
   {
+    "id": "t-1002-1",
+    "threadId": "t-1002",
+    "sender": "Helen Moss (Unit 504)",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 15",
+    "subject": "Noise complaint - Unit 504 re: Unit 511 (late night)",
+    "body": "Hi,\n\nIt's 2am and Unit 511 is loud again right now. Doors slamming, people in the hall, shouting. I can't sleep.\n\nPlease deal with it.\n\n-Helen"
+  },
+  {
+    "id": "t-1010-4",
+    "threadId": "t-1010",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner717@maplecourt.example",
+    "date": "Mar 10",
+    "subject": "RE: Lost fob - Unit 717 (fob number)",
+    "body": "Thanks.\n\nWe've requested the fob audit from the access system; once confirmed, we'll deactivate it and arrange a replacement.\n\nIn the meantime, please use the intercom to gain entry after hours.\n\n-Dana"
+  },
+  {
+    "id": "t-1010-3",
+    "threadId": "t-1010",
+    "sender": "Unit 717 Owner",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 10",
+    "subject": "Re: Lost fob - Unit 717 (fob number)",
+    "body": "Hi,\n\nManagement requested I email you directly. Please deactivate my fob.\n\nI don't know the fob number (sorry). It's the only one assigned to my unit.\n\nUnit 717"
+  },
+  {
+    "id": "t-1010-2",
+    "threadId": "t-1010",
+    "sender": "Front Desk (Concierge)",
+    "to": "owner717@maplecourt.example",
+    "date": "Mar 10",
+    "subject": "RE: Lost fob - Unit 717",
+    "body": "Unit 717,\n\nConfirmed: we can deactivate the fob as soon as management confirms the fob number. Please email management with your request so it's on file.\n\nReplacement fobs are $35 (charged to your account).\n\n-Front Desk"
+  },
+  {
+    "id": "t-1010-1",
+    "threadId": "t-1010",
+    "sender": "Unit 717 Owner",
+    "to": "concierge@maplecourt.example",
+    "date": "Mar 10",
+    "subject": "Lost fob - Unit 717",
+    "body": "Hi,\n\nI lost my fob somewhere between the lobby and P2 yesterday.\n\nCan you deactivate it and let me know what I need to do to get a replacement?\n\nThanks,\nUnit 717"
+  },
+  {
+    "id": "t-1001-3",
+    "threadId": "t-1001",
+    "sender": "Front Desk (Concierge)",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 10",
+    "subject": "RE: P1 garage leak - can you confirm location?",
+    "body": "Hi Dana,\n\nClosest marker is P1-C4. Looks like it's coming through a hairline crack that runs about 1.5m, plus some seepage along the expansion joint.\n\nPhotos attached in a separate email (system limit).\n\n-Front Desk"
+  },
+  {
     "id": "membrane-02",
     "threadId": "membrane",
     "sender": "Dana Whitfield (Manager)",
@@ -277,6 +1078,24 @@
     "date": "Mar 10",
     "subject": "RE: water in P1??",
     "body": "Hi Rita,\n\nThanks for the photo. I've logged it and will have our maintenance contractor take a first look this week to see whether it's a membrane issue or a pipe. If it's the membrane it will need a specialist. I'll keep you posted.\n\nDana"
+  },
+  {
+    "id": "t-1001-2",
+    "threadId": "t-1001",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "concierge@maplecourt.example",
+    "date": "Mar 9",
+    "subject": "RE: P1 garage leak - can you confirm location?",
+    "body": "Thanks.\n\nCan you confirm the closest column marker (e.g., P1-C3) and whether it's coming from a joint, crack, or pipe penetration?\n\nIf you can, please snap 2-3 photos and send them back.\n\n-Dana Whitfield"
+  },
+  {
+    "id": "t-1001-1",
+    "threadId": "t-1001",
+    "sender": "Front Desk (Concierge)",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 9",
+    "subject": "P1 garage leak - initial report (Unit 1P1-17)",
+    "body": "Hi,\n\nWe had water dripping in P1 near spot 41 this morning (the resident in Unit 306 has reported it too). There's a damp patch on the slab and a small puddle by the drain.\n\nNo immediate safety issue noted, but it's getting worse.\n\nThanks,\nFront Desk"
   },
   {
     "id": "membrane-01",
@@ -322,6 +1141,24 @@
     "date": "Mar 3",
     "subject": "Annual inspection - Maple Court - Mar 12",
     "body": "Hello,\n\nThis confirms the annual licence inspection for both elevators at 200 Maple Court Lane on March 12, 8am start. Each cab will be out of service approx. 2 hours during testing. Please post resident notices.\n\nVertex Elevators, Service Desk"
+  },
+  {
+    "id": "t-1002-4",
+    "threadId": "t-1002",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "owner504@maplecourt.example",
+    "date": "Feb 28",
+    "subject": "RE: Noise complaint follow-up - Unit 504 re: Unit 511",
+    "body": "Hi Helen,\n\nUnderstood. We'll take this beyond a general reminder.\n\nNext steps:\n1) We'll review concierge logs and camera coverage for common areas (where available) for the dates you provided.\n2) We'll issue a formal compliance letter to Unit 511 regarding noise/quiet enjoyment.\n\nWe can't share another owner's tenancy details, but we can address building rule violations.\n\nRegards,\nDana"
+  },
+  {
+    "id": "t-1002-3",
+    "threadId": "t-1002",
+    "sender": "Helen Moss (Unit 504)",
+    "to": "manager@maplecourt.example",
+    "date": "Feb 28",
+    "subject": "Noise complaint follow-up - Unit 504 re: Unit 511",
+    "body": "Hi Dana,\n\nAdding to my email from this morning: the noise on Feb 27 went to around 1:40am. Multiple people, laughing/yelling, door slamming.\n\nAlso I'm seeing different people coming/going all the time. Is this a short-term rental?\n\nPlease don't just \"send a reminder.\"\n\n-Helen"
   },
   {
     "id": "noise511-03",
