@@ -23,6 +23,28 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
 
 ---
 
+## Shift 005 — 2026-07-24 · Claude Code (branch `claude/condominium-os-pipeline-test-8esgdc`)
+
+- **Scope requested:** test the pipeline against Tets's "CondominiumOSMockDatabase01" Notion mock database (inline database "Fictional Property-Management Email (Demo)").
+- **Work completed** `[grounded — verified this session]`:
+  - Lane check on the Notion corpus before any use: 93 messages across 33 threads (T-1001 to T-1033), every address on reserved `.example` domains (maplecourt.example plus 11 fictional vendors), zero hits for Corporation 94 or other real-entity markers. Verdict: fictional, Lane A.
+  - Converted the rows to two drop folders outside the repo (session scratchpad, not committed): 93 `.eml` files (one per message, one folder per thread, full headers preserved) and 33 `.json` thread exports in the seed-threads shape.
+  - `npm run ingest` on the `.eml` drop: 93 of 93 documents, 0 warnings; sender, date, subject extracted from headers; ids stable.
+  - `npm run ingest` on the `.json` drop: 93 of 93 documents, 0 warnings; per-entry id suffixing (`t-1001-1` style) worked as designed.
+  - Full suite after the runs: 24 of 24 tests passing.
+  - Only repo change this session: this log entry. The corpus was not committed; WP-1.2 stays gated on Tets's go.
+- **Decisions proposed vs ratified:**
+  - Proposed, pending Tets: adopt this mock database (whole, or a ~15-25 doc subset per Build Spec M1) as the WP-1.2 corpus in `fixtures/maple-court/`. It passes ingest cleanly and covers all six Hero v1.1 required sources (Rideau Roofing and Capital Membrane quotes, Unit 504 noise / short-term rental complaint, Cardinal Engineering reserve fund, Unit 210 EV charger, arrears ledger material) plus distractors (17 Routine / FYI messages).
+  - Nothing ratified this session.
+- **Discoveries / flags:**
+  - The mock database carries metadata the `SourceDoc` model has no fields for: To, CC, Thread ID, Direction, From role, Topic tag, Needs board decision. Ingest drops them by design (nothing inferred, nothing added). Flag for WP-1.3: Topic tag (13 values) and Needs board decision (28 of 93 true) are ready-made ground-truth labels for evaluating classification; carrying them through would need a `SourceDoc` extension, which is a schema change requiring ratification (CLAUDE.md rule 4).
+  - Dates are full datetimes ("2026-05-12 17:22:00Z"), range 2026-02-03 to 2026-05-15; preserved verbatim by ingest (never-reformatted invariant held). `seed-threads.json` uses "Apr 12" style short dates; if the corpora merge under WP-1.2, pick one convention.
+  - Distribution snapshot for classification difficulty: Board communication 18, Routine / FYI 17, Vendor quote 11, Maintenance request 9, Arrears 9, Security / access 8, EV charger 6, Noise / Nuisance 5, others 10.
+- **Open items and blockers:** none created, none cleared. WP-1.2/WP-1.3 remain gated (ROADMAP §3a note); Lane B remains closed.
+- **Next-shift pointers:**
+  1. If Tets ratifies the corpus proposal: port the Notion rows into `fixtures/maple-court/` (the conversion is mechanical; the Notion database is the source of truth and this entry documents the mapping: From→sender, Date→date, Subject→subject, Body→body).
+  2. Decide whether WP-1.3 evaluation uses the Topic tag / Needs board decision labels, and if so, how they ride along without polluting `SourceDoc`.
+
 ## Shift 002 — 2026-07-23 · Claude Code (branch `claude/project-status-check-ja97bb`)
 
 - **Scope requested:** (1) project status check against README and the shift log; (2) review the uploaded "CondominiumOS: A Foundations-First Repo Scouting Report"; (3) commit the SOURCES.md index entry and this log entry.
