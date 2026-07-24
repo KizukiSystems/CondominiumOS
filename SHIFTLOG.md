@@ -23,6 +23,22 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
 
 ---
 
+## Session close — 2026-07-24 · Claude Code · summary of Shift 005 + addendum (one conversation)
+
+Written at Tets's request as the reconciliation point for the next shift. Detail lives in the Shift 005 entry and addendum below; this entry is the map. All claims verified against `git log` and a final test run (24/24 passing) `[grounded]`.
+
+- **Where things stand:** the pipeline test PASSED and the canon is updated. Branch `claude/condominium-os-pipeline-test-8esgdc`, two commits this session, one linear history on top of `2922e72`. Lane B still closed; gate meeting outcome still pending; WP-1.3 stays gated.
+- **The session's work, in commit order:**
+  1. `8232a18` mock-database pipeline test: the "CondominiumOSMockDatabase01" Notion database (93 messages, 33 threads) lane-checked as fictional (all `.example` domains, no real-entity markers), converted outside the repo, ingested via both the `.eml` and `.json` paths, 93 of 93 documents each, 0 warnings (Shift 005).
+  2. `51a03ef` canon amendments after the pipeline-map review with Tets: WP-1.3 triage report + scored classification eval; WP-1.4 "set aside this run" view with human override; WP-1.2 whole 93-doc corpus via a swappable container; ROADMAP ledger #12 decision log / precedent-as-source (Shift 005 addendum).
+- **Ratified by Tets this session:** the four canon amendments in `51a03ef`.
+- **Still open for Tets:** the corpus container build (interface contract proposed in the addendum, unratified); the gate meeting outcome; WP-1.3 internals (triage data shape, label sidecar format, prompt-injection defense) at WP-1.3 PR time.
+- **Next shift, in order:**
+  1. Reconcile this entry against `git log` (MET-009).
+  2. Record the gate outcome in ROADMAP §2 and the ledger when it lands.
+  3. On the container landing: port the corpus per the Shift 005 mapping.
+  4. WP-1.3 build, with the triage report and eval harness in its done-when.
+
 ## Shift 005 addendum — 2026-07-24 · same session (pipeline map review; three ratifications)
 
 - **Scope requested:** pipeline mental-model review with Tets; then record the ratified additions in the build canon.
