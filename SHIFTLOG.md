@@ -23,23 +23,25 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
 
 ---
 
-## Session close — 2026-07-24 · Claude Code · summary of Shift 005 + addendum (one conversation)
+## Session close — 2026-07-24 · Claude Code · summary of Shift 007 + addendum (one conversation)
 
-Written at Tets's request as the reconciliation point for the next shift. Detail lives in the Shift 005 entry and addendum below; this entry is the map. All claims verified against `git log` and a final test run (24/24 passing) `[grounded]`.
+Written at Tets's request as the reconciliation point for the next shift. Detail lives in the Shift 007 entry and addendum below; this entry is the map. All claims verified against `git log` and a final test run (24/24 passing) `[grounded]`.
+
+(Numbering note, added at merge time: this session originally logged itself as Shift 005, unaware that the 2026-07-23 main-branch session had already used Shift 005 and Shift 006. Renumbered to Shift 007 when the branch was merged with main; the commit hashes cited below are unchanged.)
 
 - **Where things stand:** the pipeline test PASSED and the canon is updated. Branch `claude/condominium-os-pipeline-test-8esgdc`, two commits this session, one linear history on top of `2922e72`. Lane B still closed; gate meeting outcome still pending; WP-1.3 stays gated.
 - **The session's work, in commit order:**
-  1. `8232a18` mock-database pipeline test: the "CondominiumOSMockDatabase01" Notion database (93 messages, 33 threads) lane-checked as fictional (all `.example` domains, no real-entity markers), converted outside the repo, ingested via both the `.eml` and `.json` paths, 93 of 93 documents each, 0 warnings (Shift 005).
-  2. `51a03ef` canon amendments after the pipeline-map review with Tets: WP-1.3 triage report + scored classification eval; WP-1.4 "set aside this run" view with human override; WP-1.2 whole 93-doc corpus via a swappable container; ROADMAP ledger #12 decision log / precedent-as-source (Shift 005 addendum).
+  1. `8232a18` mock-database pipeline test: the "CondominiumOSMockDatabase01" Notion database (93 messages, 33 threads) lane-checked as fictional (all `.example` domains, no real-entity markers), converted outside the repo, ingested via both the `.eml` and `.json` paths, 93 of 93 documents each, 0 warnings (Shift 007).
+  2. `51a03ef` canon amendments after the pipeline-map review with Tets: WP-1.3 triage report + scored classification eval; WP-1.4 "set aside this run" view with human override; WP-1.2 whole 93-doc corpus via a swappable container; ROADMAP ledger #12 decision log / precedent-as-source (Shift 007 addendum).
 - **Ratified by Tets this session:** the four canon amendments in `51a03ef`.
 - **Still open for Tets:** the corpus container build (interface contract proposed in the addendum, unratified); the gate meeting outcome; WP-1.3 internals (triage data shape, label sidecar format, prompt-injection defense) at WP-1.3 PR time.
 - **Next shift, in order:**
   1. Reconcile this entry against `git log` (MET-009).
   2. Record the gate outcome in ROADMAP §2 and the ledger when it lands.
-  3. On the container landing: port the corpus per the Shift 005 mapping.
+  3. On the container landing: port the corpus per the Shift 007 mapping.
   4. WP-1.3 build, with the triage report and eval harness in its done-when.
 
-## Shift 005 addendum — 2026-07-24 · same session (pipeline map review; three ratifications)
+## Shift 007 addendum — 2026-07-24 · same session (pipeline map review; three ratifications)
 
 - **Scope requested:** pipeline mental-model review with Tets; then record the ratified additions in the build canon.
 - **Work completed** `[grounded — this commit]`:
@@ -49,15 +51,15 @@ Written at Tets's request as the reconciliation point for the next shift. Detail
   - WORKPLAN WP-1.2 amended: corpus = the whole 93-doc mock database, delivered via a swappable corpus container (Tets builds it); supersedes the ~15-25 doc sizing.
   - ROADMAP ledger #12 added: decision log / precedent-as-source ("Paper Trail"), pinned for Phase 2+.
 - **Decisions proposed vs ratified:**
-  - Ratified by Tets this session: (1) triage report + scored classification eval into WP-1.3/WP-1.4; (2) decision log pinned as ledger #12 with the precedent-as-source shape (surface precedent with a citation, never infer an outcome from it), deferred; (3) Shift 005 corpus proposal: whole 93-doc corpus via the swappable container.
+  - Ratified by Tets this session: (1) triage report + scored classification eval into WP-1.3/WP-1.4; (2) decision log pinned as ledger #12 with the precedent-as-source shape (surface precedent with a citation, never infer an outcome from it), deferred; (3) Shift 007 corpus proposal: whole 93-doc corpus via the swappable container.
   - Proposed, pending: the corpus container interface contract (provider exposes `load(): Promise<IngestResult>`, corpus chosen by config like the LLM adapter, optional ground-truth-labels hook for the eval harness); recorded in the session plan file for Tets to ratify or redesign when he builds the container.
-- **Discoveries / flags:** none new; see Shift 005 for the corpus findings.
+- **Discoveries / flags:** none new; see Shift 007 for the corpus findings.
 - **Open items and blockers:** gate meeting outcome still pending (WP-1.3 stays gated; ROADMAP §2 untouched); container design and build with Tets; WP-1.3 internals (triage report data shape, label sidecar format, prompt-injection defense per ROADMAP §3a follow-up 4) deferred to the WP-1.3 PR.
 - **Next-shift pointers:**
-  1. When the container lands: port the corpus per the Shift 005 mapping.
+  1. When the container lands: port the corpus per the Shift 007 mapping.
   2. When the gate outcome lands: record it in ROADMAP §2 and the ledger, then WP-1.3 starts with the triage report and eval harness in its done-when.
 
-## Shift 005 — 2026-07-24 · Claude Code (branch `claude/condominium-os-pipeline-test-8esgdc`)
+## Shift 007 — 2026-07-24 · Claude Code (branch `claude/condominium-os-pipeline-test-8esgdc`)
 
 - **Scope requested:** test the pipeline against Tets's "CondominiumOSMockDatabase01" Notion mock database (inline database "Fictional Property-Management Email (Demo)").
 - **Work completed** `[grounded — verified this session]`:
