@@ -23,6 +23,24 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
 
 ---
 
+## Shift 005 addendum — 2026-07-24 · same session (pipeline map review; three ratifications)
+
+- **Scope requested:** pipeline mental-model review with Tets; then record the ratified additions in the build canon.
+- **Work completed** `[grounded — this commit]`:
+  - Pipeline map confirmed with Tets: collect → filter → analyze → prove → visualize → human decides → measure, with Build Spec §6 data handling as the precondition for real data at any stage.
+  - WORKPLAN WP-1.3 amended: per-run triage report (one disposition line per ingested doc, reason included, nothing dropped silently) and a scored classification eval (precision/recall against the mock database's ground-truth labels, labels in a sidecar fixture, `SourceDoc` unchanged); both added to done-when.
+  - WORKPLAN WP-1.4 amended: collapsible "set aside this run" view; manager can reverse any exclusion; overrides recorded for M3.
+  - WORKPLAN WP-1.2 amended: corpus = the whole 93-doc mock database, delivered via a swappable corpus container (Tets builds it); supersedes the ~15-25 doc sizing.
+  - ROADMAP ledger #12 added: decision log / precedent-as-source ("Paper Trail"), pinned for Phase 2+.
+- **Decisions proposed vs ratified:**
+  - Ratified by Tets this session: (1) triage report + scored classification eval into WP-1.3/WP-1.4; (2) decision log pinned as ledger #12 with the precedent-as-source shape (surface precedent with a citation, never infer an outcome from it), deferred; (3) Shift 005 corpus proposal: whole 93-doc corpus via the swappable container.
+  - Proposed, pending: the corpus container interface contract (provider exposes `load(): Promise<IngestResult>`, corpus chosen by config like the LLM adapter, optional ground-truth-labels hook for the eval harness); recorded in the session plan file for Tets to ratify or redesign when he builds the container.
+- **Discoveries / flags:** none new; see Shift 005 for the corpus findings.
+- **Open items and blockers:** gate meeting outcome still pending (WP-1.3 stays gated; ROADMAP §2 untouched); container design and build with Tets; WP-1.3 internals (triage report data shape, label sidecar format, prompt-injection defense per ROADMAP §3a follow-up 4) deferred to the WP-1.3 PR.
+- **Next-shift pointers:**
+  1. When the container lands: port the corpus per the Shift 005 mapping.
+  2. When the gate outcome lands: record it in ROADMAP §2 and the ledger, then WP-1.3 starts with the triage report and eval harness in its done-when.
+
 ## Shift 005 — 2026-07-24 · Claude Code (branch `claude/condominium-os-pipeline-test-8esgdc`)
 
 - **Scope requested:** test the pipeline against Tets's "CondominiumOSMockDatabase01" Notion mock database (inline database "Fictional Property-Management Email (Demo)").

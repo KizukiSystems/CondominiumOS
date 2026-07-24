@@ -97,6 +97,7 @@ Deliberately NOT in this queue (waits for the gate): the Maple Court corpus (WP-
 | 9 | Path to paid or a bounded value-exchange | `[open — Friday]` | Pilot framing |
 | 10 | Repo home for the build | `[disposed 2026-07-23]` — Tets: build lives here in `CondominiumOS` (supersedes Build Spec §4's `KizukiSystems/concierge`); `Concierge-OG` stays reference-only | WP-1.1 scaffold location: this repo |
 | 11 | AI Studio POC code folder made available to Claude Code | `[closed 2026-07-23]` — synced as `KizukiSystems/Concierge-OG`; [SALVAGE.md](SALVAGE.md) v1.0 ratified by Tets same day. **M0 complete** | M0: done |
+| 12 | Decision log / precedent-as-source (Tets's "Paper Trail" concept) | `[pinned — Tets, 2026-07-24]` · shape agreed: past decisions enter the corpus as citable SourceDocs; the model may surface precedent with a citation ("Board accepted a similar payment plan in March, source: D-012") but never infers an outcome from it (options not decisions, §4 invariants). Fictional Maple Court decision log may join the WP-1.2 corpus (Lane A, adjacent to the prior-minutes doc); a real Corporation 94 decision log is Lane B, gated on Build Spec §6 (ledger #7). M3's edits-as-diffs is the embryo; review the Paper Trail project for import before building anything new | Phase 2+ precedent surfacing; richer M3 |
 
 ## 6 · Definition of success (v0.x, Build Spec §9)
 
