@@ -3,7 +3,8 @@ import type { AgendaItem, BoardPack } from '../types';
 
 interface AgendaProps {
   doc: BoardPack;
-  sourceCount: number;
+  messageCount: number;
+  threadCount: number;
   onBack: () => void;
   onOpenCitation: (sourceId: string) => void;
   onUpdateItem: (id: string, updates: Partial<AgendaItem>) => void;
@@ -14,7 +15,15 @@ interface AgendaProps {
 // simulated publishing, no fake calendar invites or portal syncs. A pack can
 // be marked FINAL, which freezes it locally. Nothing is ever sent or filed
 // (Build Spec §2: no autonomous actions).
-export function Agenda({ doc, sourceCount, onBack, onOpenCitation, onUpdateItem, onFinalize }: AgendaProps) {
+export function Agenda({
+  doc,
+  messageCount,
+  threadCount,
+  onBack,
+  onOpenCitation,
+  onUpdateItem,
+  onFinalize,
+}: AgendaProps) {
   const [activeTab, setActiveTab] = useState<'agenda' | 'talking-points'>('agenda');
   const items = doc.agendaItems;
   const approvedCount = items.filter((i) => i.status === 'approved').length;
@@ -78,9 +87,12 @@ export function Agenda({ doc, sourceCount, onBack, onOpenCitation, onUpdateItem,
           </div>
 
           <div className="bg-gray-50 border border-gray-200 rounded p-4 text-sm text-gray-600 mb-8">
-            Drafted by Concierge from <strong>{sourceCount} fictional source documents</strong> (cached demo
-            data; the live pipeline arrives with WP-1.3). Every item links to its source. Review before
-            circulating.
+            Drafted by Concierge from{' '}
+            <strong>
+              {messageCount} fictional messages across {threadCount} threads
+            </strong>{' '}
+            (cached demo data; the live pipeline arrives with WP-1.3). Every item links to its source. Review
+            before circulating.
           </div>
 
           {isFinal && (

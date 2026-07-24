@@ -1,0 +1,425 @@
+[
+  {
+    "id": "arrears-04",
+    "threadId": "arrears",
+    "sender": "Accounts ledger",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 30",
+    "subject": "Past Due Accounts Summary - April month end",
+    "body": "Dana,\n\nMonth-end arrears summary attached. Units 312 and 808 are each 60+ days past due on common expenses, $9,240 total between them, and both have now missed two consecutive notices (Mar 15 and Apr 14). No contact from either owner.\n\nEverything else is current or under 30 days.\n\nMaple Court Accounting"
+  },
+  {
+    "id": "notice-balcony",
+    "threadId": "notice-balcony",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "all-owners@maplecourt.example",
+    "date": "Apr 28",
+    "subject": "Balcony season reminders",
+    "body": "Hello Maple Court,\n\nWith the warm weather here, a few reminders: no BBQs other than electric per the rules, planters must sit inside the railing, and please don't shake mats or brooms over the edge, it lands on your neighbours' balconies.\n\nThanks all,\nDana"
+  },
+  {
+    "id": "window-01",
+    "threadId": "window",
+    "sender": "Clearview Window Cleaning",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 24",
+    "subject": "Maple Court - spring window wash May 12-13",
+    "body": "Hi Dana, confirming Maple Court is on the schedule for May 12 and 13, weather permitting. Same scope as last year, exterior glass all elevations. We'll need the roof anchor log before we start, can you send?\n\nRob\nClearview Window Cleaning"
+  },
+  {
+    "id": "parking-02",
+    "threadId": "parking",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "jplourde@maplecourt.example",
+    "date": "Apr 23",
+    "subject": "RE: visitor parking passes",
+    "body": "Hi J.,\n\nNo problem. Replacement visitor passes are $25, payable to the corporation. I can leave one at the concierge desk for pickup tomorrow. The old pass number will be cancelled, so if it turns up please hand it in rather than lending it out.\n\nDana"
+  },
+  {
+    "id": "parking-01",
+    "threadId": "parking",
+    "sender": "J. Plourde (Unit 119)",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 22",
+    "subject": "visitor parking passes",
+    "body": "hi, when do the visitor parking passes get reissued? i lost my old one somewhere, possibly in the move. do i need to pay for a new one or is there like an annual reissue. thx"
+  },
+  {
+    "id": "greenscape-03",
+    "threadId": "greenscape",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "crew@greenscape.example",
+    "date": "Apr 22",
+    "subject": "RE: Spring Cleanup Schedule",
+    "body": "Thanks. Priorities this year: the east bed by the visitor lot took a beating from the snowplow, and the cedars along the fence need a proper trim before they touch the neighbouring garage again. Rest is standard.\n\nDana"
+  },
+  {
+    "id": "membrane-07",
+    "threadId": "membrane",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "president@maplecourt.example",
+    "date": "Apr 21",
+    "subject": "FW: P1 membrane - two quotes, they don't agree",
+    "body": "Priya,\n\nBoth inspection quotes for the P1 membrane are in, forwarding below. Short version: Rideau says $42k for a standard recoat and saw nothing structural. Capital came in at $51k and flagged staining they think could mean slab deterioration underneath - they want a structural engineer to look before anyone recoats anything.\n\nThe two reports genuinely disagree, so I think this has to go to the board in May rather than me just picking one.\n\nDana"
+  },
+  {
+    "id": "membrane-06",
+    "threadId": "membrane",
+    "sender": "Capital Membrane",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 18",
+    "subject": "Inspection Report - P1 Membrane, Maple Court",
+    "body": "Dear Ms. Whitfield,\n\nFollowing our April 16 site visit we have completed our inspection of the same P1 membrane area. Our quotation is $51,000, breakdown attached.\n\nPlease note: we observed staining consistent with possible slab deterioration beneath the membrane. This is outside a membrane contractor's scope to confirm either way. We recommend a structural engineer confirm the slab condition before any recoat proceeds. We would rather flag this now than have you discover it under a fresh membrane.\n\nSylvie Tran\nCapital Membrane Ltd."
+  },
+  {
+    "id": "greenscape-02",
+    "threadId": "greenscape",
+    "sender": "GreenScape Landscaping",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 15",
+    "subject": "Spring Cleanup Schedule",
+    "body": "Hi Dana,\n\nConfirming spring cleanup for Maple Court the week of May 1st. Crew of four, two days. Please let us know if there are any specific areas of focus this year, otherwise we'll follow last season's scope.\n\nGreenScape crew"
+  },
+  {
+    "id": "arrears-03",
+    "threadId": "arrears",
+    "sender": "Accounts ledger",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 14",
+    "subject": "RE: 312 / 808 - second notices",
+    "body": "Second notices went out to both 312 and 808 today, registered mail this time. Still nothing back from the first round. 312's March and April are now both outstanding, 808 the same. Will include totals in the month-end summary.\n\nAccounting"
+  },
+  {
+    "id": "membrane-05",
+    "threadId": "membrane",
+    "sender": "Rideau Roofing",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 12",
+    "subject": "P1 Garage Membrane Inspection Quote",
+    "body": "Hi Dana,\n\nWe inspected the P1 garage membrane on Thursday following the March leak. The membrane is at end of life in the affected area and we quote $42,000 for a standard recoat of the full P1 level, mobilization included. No structural concerns noted from our visual inspection - this is normal wear for a membrane of this age.\n\nWe could schedule for June. Quote valid 60 days.\n\nGord Belanger\nRideau Roofing"
+  },
+  {
+    "id": "ev210-04",
+    "threadId": "ev210",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "sodei@maplecourt.example",
+    "date": "Apr 11",
+    "subject": "RE: EV Charger Request",
+    "body": "Hi Sam,\n\nThanks for the formal request. Honest answer: the corporation doesn't have forms or a process for this yet, yours is the first. I don't want to hold you up with an invented answer, so I'm putting it in front of the board at the May meeting to get a proper policy direction. I'll come back to you right after.\n\nDana"
+  },
+  {
+    "id": "reserve-03",
+    "threadId": "reserve",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "maubin@cardinaleng.example",
+    "date": "Apr 10",
+    "subject": "RE: Reserve Fund Study Renewal",
+    "body": "Thank you Marc. I'll take the renewal offer to the board at the May meeting and confirm after. Appreciate you holding the rate.\n\nDana"
+  },
+  {
+    "id": "ev210-03",
+    "threadId": "ev210",
+    "sender": "Sam Odei (Unit 210)",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 9",
+    "subject": "EV Charger Request",
+    "body": "Hi Dana,\n\nFollowing up on my note from last month - I went ahead and ordered the car, delivery in June. I'd like to formally request approval to install a Level 2 EV charger in my parking space (P2-14). My electrician says it's straightforward from the panel on that level.\n\nPlease let me know the required forms or process, happy to fill in whatever is needed.\n\nSam"
+  },
+  {
+    "id": "reserve-02",
+    "threadId": "reserve",
+    "sender": "Cardinal Engineering",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 7",
+    "subject": "Reserve Fund Study Renewal",
+    "body": "Dear Dana,\n\nOur records show the Maple Court reserve fund study is now three years old and an update is due this fiscal year. As the firm that prepared the last cycle, we are pleased to offer the update at last cycle's rate, $6,800, if engaged before fiscal year end.\n\nHappy to discuss scope. We hold the building's full component inventory from last time, which shortens the work considerably.\n\nMarc Aubin, P.Eng.\nCardinal Engineering"
+  },
+  {
+    "id": "party-02",
+    "threadId": "party",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "unit402@maplecourt.example",
+    "date": "Apr 6",
+    "subject": "RE: party room may 24??",
+    "body": "Hi, yes the party room is free May 24. I've pencilled you in. Deposit is $200 (returned after inspection) and music off by 11pm per the rules. Drop the deposit cheque at the office when you can and it's confirmed.\n\nDana"
+  },
+  {
+    "id": "party-01",
+    "threadId": "party",
+    "sender": "Unit 402",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 5",
+    "subject": "party room may 24??",
+    "body": "hi dana! is the party room free on may 24, saturday? want to book it for my mom's 70th. probably 25 ppl. what's the deposit again? thanks!!"
+  },
+  {
+    "id": "noise511-07",
+    "threadId": "noise511",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "hmoss@maplecourt.example",
+    "date": "Apr 4",
+    "subject": "RE: FOURTH complaint - unit 511",
+    "body": "Helen,\n\nI hear you, and you're right that this has gone on too long. I've been unable to reach the owner of 511 by phone or mail since March. I'm escalating this to the board at the May meeting as a compliance matter so they can decide on formal steps. I'll keep you posted on the outcome.\n\nDana"
+  },
+  {
+    "id": "noise511-06",
+    "threadId": "noise511",
+    "sender": "Helen Moss (Unit 504)",
+    "to": "manager@maplecourt.example",
+    "date": "Apr 3",
+    "subject": "FOURTH complaint - unit 511",
+    "body": "Dana,\n\nThis is my fourth complaint since February about late-night noise and the constant turnover at Unit 511. Different people every weekend, suitcases in the hallway at 1am, and last night the music went until past 2 again. I strongly suspect it's being used as a short-term rental. I've been patient but this is affecting my sleep and my work.\n\nCan management please look into this properly? What are my options if this continues?\n\nHelen Moss\nUnit 504"
+  },
+  {
+    "id": "insurance-02",
+    "threadId": "insurance",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "unit615@maplecourt.example",
+    "date": "Apr 1",
+    "subject": "RE: certificate of insurance for lender",
+    "body": "Hi, attached is the corporation's current certificate of insurance. If your lender needs specific wording they can contact our broker directly (details on the certificate) - that's usually faster than routing through me.\n\nDana"
+  },
+  {
+    "id": "insurance-01",
+    "threadId": "insurance",
+    "sender": "Unit 615",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 31",
+    "subject": "certificate of insurance for lender",
+    "body": "Hello, I'm refinancing and my lender is asking for the building's certificate of insurance. Could you send me a copy or tell me who to ask? They want it by end of next week. Thank you."
+  },
+  {
+    "id": "newsletter-02",
+    "threadId": "newsletter",
+    "sender": "Priya Raman (Board President)",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 30",
+    "subject": "RE: spring newsletter draft",
+    "body": "Looks fine to me Dana. One typo in the second paragraph (\"recieve\") and maybe soften the line about the garbage room, it reads a bit scoldy. Otherwise send it.\n\nPriya"
+  },
+  {
+    "id": "newsletter-01",
+    "threadId": "newsletter",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "president@maplecourt.example",
+    "date": "Mar 28",
+    "subject": "spring newsletter draft",
+    "body": "Priya,\n\nDraft of the spring newsletter attached - covers cleanup week, window washing dates once confirmed, and a reminder about the garbage room. Let me know if the board wants anything added before I send it to all owners.\n\nDana"
+  },
+  {
+    "id": "membrane-04",
+    "threadId": "membrane",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "gord@rideauroofing.example, stran@capitalmembrane.example",
+    "date": "Mar 26",
+    "subject": "P1 membrane inspection + quote - Maple Court, 200 Maple Court Lane",
+    "body": "Good morning,\n\nMaple Court (OCSCC 742, 88 units) has an active leak through the P1 garage membrane near spot 41, first reported March 9 and worse since the thaw. We'd like an inspection and a quotation for remediation from each of you. Access via the ramp off Maple Court Lane; I can meet you on site any weekday.\n\nPlease include scheduling lead time in your quote.\n\nDana Whitfield\nSite Manager, Maple Court"
+  },
+  {
+    "id": "membrane-03",
+    "threadId": "membrane",
+    "sender": "Rita Fabbri (Unit 306)",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 24",
+    "subject": "RE: water in P1?? - STILL DRIPPING",
+    "body": "Dana it's been two weeks and the drip over spot 41 is now a steady trickle since the thaw started. There's a rust stain forming on the hood of my car. I moved to visitor parking but that's not a solution?? Please tell me someone is coming to look at this.\n\nRita"
+  },
+  {
+    "id": "dogwaste-02",
+    "threadId": "dogwaste",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "mnguyen@maplecourt.example",
+    "date": "Mar 22",
+    "subject": "RE: dog waste courtyard",
+    "body": "Hi M.,\n\nAgreed it's gotten bad with the melt. I'm having two new signs put up this week and the newsletter will carry a reminder. If you ever see who it is, a unit number helps - otherwise there's frustratingly little we can do beyond signage.\n\nDana"
+  },
+  {
+    "id": "dogwaste-01",
+    "threadId": "dogwaste",
+    "sender": "M. Nguyen (Unit 703)",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 21",
+    "subject": "dog waste courtyard",
+    "body": "Hi Dana, now that the snow is melting the courtyard is honestly disgusting, months of dog waste showing up along the path. Whoever is doing this all winter should be fined. Can we get signs or cameras or something?"
+  },
+  {
+    "id": "noise511-05",
+    "threadId": "noise511",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "hmoss@maplecourt.example",
+    "date": "Mar 18",
+    "subject": "RE: unit 511 again - third time",
+    "body": "Helen,\n\nThank you for documenting the dates. I attempted to reach the owner of 511 again today - the phone number on file is out of service and my letter from late February has had no reply. I've sent another letter to the mailing address on record. I know that's not the answer you want; I'm keeping a file on this.\n\nDana"
+  },
+  {
+    "id": "noise511-04",
+    "threadId": "noise511",
+    "sender": "Helen Moss (Unit 504)",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 17",
+    "subject": "unit 511 again - third time",
+    "body": "Dana,\n\nThird complaint now. Saturday night, noise until at least 1:30am, and this time I saw a lockbox zip-tied to the stairwell railing on our floor. That's for key handoffs, isn't it? Nobody who lives here does that.\n\nDates so far for your records: Feb 5-6 overnight, Feb 27-28 overnight, and now Mar 14-15.\n\nHelen"
+  },
+  {
+    "id": "arrears-02",
+    "threadId": "arrears",
+    "sender": "Accounts ledger",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 15",
+    "subject": "RE: 312 / 808 - first notices sent",
+    "body": "First arrears notices went to Units 312 and 808 today by regular mail. 312 has now missed February and March; 808 missed February and made a partial $400 payment against March which doesn't cover it. Will flag again if no response by mid-April.\n\nAccounting"
+  },
+  {
+    "id": "membrane-02",
+    "threadId": "membrane",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "rfabbri@maplecourt.example",
+    "date": "Mar 10",
+    "subject": "RE: water in P1??",
+    "body": "Hi Rita,\n\nThanks for the photo. I've logged it and will have our maintenance contractor take a first look this week to see whether it's a membrane issue or a pipe. If it's the membrane it will need a specialist. I'll keep you posted.\n\nDana"
+  },
+  {
+    "id": "membrane-01",
+    "threadId": "membrane",
+    "sender": "Rita Fabbri (Unit 306)",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 9",
+    "subject": "water in P1??",
+    "body": "Hi Dana, there is water dripping from the ceiling in P1 right around parking spot 41 (mine). Started sometime this weekend I think. It's landing on my car. Photo attached. Is this something to worry about? The concrete looks wet in like a 2 meter patch."
+  },
+  {
+    "id": "ev210-02",
+    "threadId": "ev210",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "sodei@maplecourt.example",
+    "date": "Mar 6",
+    "subject": "RE: quick question - EV charging",
+    "body": "Hi Sam,\n\nGood question and honestly you're the first to ask. There's no policy on the books currently. Let me look into what other buildings do, and if you go ahead with the car, send me a formal request and we'll take it from there.\n\nDana"
+  },
+  {
+    "id": "ev210-01",
+    "threadId": "ev210",
+    "sender": "Sam Odei (Unit 210)",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 5",
+    "subject": "quick question - EV charging",
+    "body": "Hi Dana, I'm seriously looking at an electric car and before I commit - is there any way to charge in the garage? Is that something the building allows / has anyone done it? Not urgent, just don't want to buy the car and find out it's impossible. Cheers, Sam"
+  },
+  {
+    "id": "elevator-02",
+    "threadId": "elevator",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "service@vertexelevators.example",
+    "date": "Mar 4",
+    "subject": "RE: Annual inspection - Maple Court - Mar 12",
+    "body": "Confirmed for the 12th. I'll post notices in both elevator cabs and at the mailroom tomorrow so residents expect the outage windows.\n\nDana"
+  },
+  {
+    "id": "elevator-01",
+    "threadId": "elevator",
+    "sender": "Vertex Elevators",
+    "to": "manager@maplecourt.example",
+    "date": "Mar 3",
+    "subject": "Annual inspection - Maple Court - Mar 12",
+    "body": "Hello,\n\nThis confirms the annual licence inspection for both elevators at 200 Maple Court Lane on March 12, 8am start. Each cab will be out of service approx. 2 hours during testing. Please post resident notices.\n\nVertex Elevators, Service Desk"
+  },
+  {
+    "id": "noise511-03",
+    "threadId": "noise511",
+    "sender": "Helen Moss (Unit 504)",
+    "to": "manager@maplecourt.example",
+    "date": "Feb 28",
+    "subject": "noise unit 511 - again",
+    "body": "Dana, it happened again this weekend. Completely different group of people than three weeks ago, I passed them in the hall with luggage. Music and shouting until 2am Friday AND Saturday. This is the second time I'm writing. Did the owner ever respond?\n\nHelen"
+  },
+  {
+    "id": "arrears-01",
+    "threadId": "arrears",
+    "sender": "Accounts ledger",
+    "to": "manager@maplecourt.example",
+    "date": "Feb 27",
+    "subject": "February common expenses - two units missed",
+    "body": "Dana, flagging early: Units 312 and 808 both missed the February common expense payment (NSF on 312's pre-authorization, no payment at all from 808). Not unusual for one month but wanted it on your radar. Standard first notice will go out mid-March if February stays unpaid.\n\nAccounting"
+  },
+  {
+    "id": "remote-01",
+    "threadId": "remote",
+    "sender": "Unit 227",
+    "to": "manager@maplecourt.example",
+    "date": "Feb 23",
+    "subject": "garage door remote flaky",
+    "body": "hi - my garage remote works maybe half the time, i have to sit at the ramp clicking it while cars line up behind me. battery is new. can i get it reprogrammed or swapped? thanks"
+  },
+  {
+    "id": "reserve-01",
+    "threadId": "reserve",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "president@maplecourt.example",
+    "date": "Feb 20",
+    "subject": "reserve fund study - due this year",
+    "body": "Priya, heads up for budgeting: the reserve fund study dates from 2023 so the update falls due this fiscal year. I expect Cardinal (who did the last one) will send a renewal offer in the spring, and the board should decide whether to renew with them or tender it. No action needed yet, just flagging for the May agenda.\n\nDana"
+  },
+  {
+    "id": "fob-02",
+    "threadId": "fob",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "unit812@maplecourt.example",
+    "date": "Feb 17",
+    "subject": "RE: lost fob",
+    "body": "Hi, I've deactivated the lost fob as of this morning so no worries on security. Replacement is $50, ready at the office - bring photo ID. If the old one turns up, hand it in, it won't work anymore.\n\nDana"
+  },
+  {
+    "id": "fob-01",
+    "threadId": "fob",
+    "sender": "Unit 812",
+    "to": "manager@maplecourt.example",
+    "date": "Feb 16",
+    "subject": "lost fob",
+    "body": "Hi I think I lost my building fob on the weekend, possibly at the gym or in a cab. Can you deactivate it? And how do I get a replacement / what does it cost. Bit worried someone could use it to get in."
+  },
+  {
+    "id": "greenscape-01",
+    "threadId": "greenscape",
+    "sender": "GreenScape Landscaping",
+    "to": "manager@maplecourt.example",
+    "date": "Feb 12",
+    "subject": "salt bin refill",
+    "body": "Hi Dana, refilled both salt bins at the front walk and the garage ramp on today's visit. Going through it fast this year with the freeze-thaw. We'll check again next visit.\n\nGreenScape crew"
+  },
+  {
+    "id": "ice-02",
+    "threadId": "ice",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "unit118@maplecourt.example",
+    "date": "Feb 9",
+    "subject": "RE: ice at front steps - someone will get hurt",
+    "body": "Thank you for flagging - I've salted the steps myself this morning and called GreenScape to add the front walk to their route this week. Please do report anything like this right away, day or night, the after-hours line reaches me.\n\nDana"
+  },
+  {
+    "id": "ice-01",
+    "threadId": "ice",
+    "sender": "Unit 118",
+    "to": "manager@maplecourt.example",
+    "date": "Feb 9",
+    "subject": "ice at front steps - someone will get hurt",
+    "body": "Good morning, the front steps were a sheet of ice at 7am today, I nearly went down carrying my kid's stroller. This is the second icy morning in a row with no salt down. Someone elderly is going to fall. Please deal with this today."
+  },
+  {
+    "id": "noise511-02",
+    "threadId": "noise511",
+    "sender": "Dana Whitfield (Manager)",
+    "to": "hmoss@maplecourt.example",
+    "date": "Feb 7",
+    "subject": "RE: noise complaint - unit 511 overnight",
+    "body": "Hi Helen,\n\nSorry you had that night. I've noted the complaint and will contact the owner of 511 - the unit isn't owner-occupied per our records, so I'll write to the address on file. Please do keep telling me dates and times if it recurs; a record matters if this becomes a formal matter.\n\nDana"
+  },
+  {
+    "id": "noise511-01",
+    "threadId": "noise511",
+    "sender": "Helen Moss (Unit 504)",
+    "to": "manager@maplecourt.example",
+    "date": "Feb 6",
+    "subject": "noise complaint - unit 511 overnight",
+    "body": "Hi Dana,\n\nI want to report loud music and what sounded like a party in Unit 511 until roughly 2am last night (Friday into Saturday). I don't recognize the people I've seen coming and going, and there were suitcases in the hallway. I knocked at midnight and got no answer, just laughter.\n\nI'd appreciate it if someone could speak to whoever lives there.\n\nHelen Moss, Unit 504"
+  }
+]

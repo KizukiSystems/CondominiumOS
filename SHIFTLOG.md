@@ -125,6 +125,16 @@ Written at Tets's request as the reconciliation point for the next shift. Detail
   2. On Tets's disposition of SALVAGE v1.0: M0 closes; WP-1.1 scaffold may start on explicit go (gate outcome permitting), lifting the §6 list from the POC.
   3. Friday-gate pointers from Shift 001 stand.
 
+## Shift 006 — 2026-07-23 · Claude Code (branch `main`; same conversation: fresh demo corpus, WP-1.2 started early)
+
+- **Scope requested:** Tets directed dropping the POC-derived 8-email seed and generating an original, messy corpus ("let's just start fresh... generate our own messy email stuff"), ratified after plan review. Gate note recorded: corpus work starts a day before the Friday meeting on Tets's authority; a different wedge means retargeting the storylines. The five anchor facts stayed fixed (cited by the demo agenda, hero design, and tests).
+- **Work completed** `[grounded — verified this session]`:
+  - `fixtures/maple-court/corpus.json`: 47 fictional messages, 17 threads, Feb 1-Apr 30 2026. Five decision storylines that build over months (garage leak → dueling quotes; four escalating noise complaints; reserve study flag → renewal offer; EV inquiry → formal request; arrears escalation → month-end summary) plus ~45% routine noise. Deliberately messy prose. All-fictional cast, `.example` domains throughout. `seed-threads.json` deleted.
+  - Demo re-pointed: cached agenda citations now target the anchor messages (`membrane-05/-06`, `noise511-06`, `reserve-02`, `arrears-04`); provenance banner now fully computed ("47 fictional messages across 17 threads"), closing the last trace of the hero's hard-coded count.
+  - `Thread` type gained optional `threadId`/`to`.
+- Verified: typecheck, all 24 tests (citations resolve against the new corpus, display dates match sources, hygiene scan covers the new fixture), production build, and `npm run ingest -- fixtures/maple-court` all pass.
+- **Open items:** unchanged, plus WP-1.2 remainder (governing documents for citable legal context). The gate meeting remains the critical path.
+
 ## Shift 005 — 2026-07-23 · Claude Code (branch `main`; same conversation, post-close work block: external review + quality batch)
 
 - **Scope requested:** Tets had an external AI reviewer (Perplexity, with repo access) audit the codebase as a senior developer; Claude Code assessed the review; Tets ratified executing its "cheap and high-leverage" batch (plan-mode approved).

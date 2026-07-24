@@ -1,8 +1,17 @@
 # fixtures/maple-court/ — the fictional demo corpus (Lane A)
 
-The ~15-25 document Maple Court / OCSCC 742 corpus lands here with WP-1.2, after the gate meeting locks the wedge.
+Everything in this directory is FICTIONAL and committed. No real names, companies, buildings, or Corporation 94 details, ever (CLAUDE.md rule 6; a test scans this directory to enforce part of it). All email addresses use reserved `.example` domains.
 
-Everything in this directory is FICTIONAL and committed. No real names, buildings, or Corporation 94 details, ever (CLAUDE.md rule 6).
+- `corpus.json` — 47 fictional messages across 17 threads, February 1 to April 30, 2026, generated fresh on 2026-07-23 (supersedes the POC-derived 8-email seed). Five decision storylines build over the three months, buried in realistic routine noise (~45%): landscaping, lost fobs, elevator notices, party-room bookings, ice complaints. Written messy on purpose: typos, ALL-CAPS subjects, run-ons, terse vendor replies. Valid both as the demo UI's data source and as `npm run ingest` input.
 
-- `seed-threads.json` — the 8 seed threads ported from `Concierge-OG` (SALVAGE.md §6), covering all six Hero v1.1 source requirements (Rideau Roofing Apr 12 · Capital Membrane Apr 18 · Unit 504 Apr 3 · Cardinal Eng. Apr 7 · Unit 210 Apr 9 · Accounts ledger Apr 30) plus two routine distractors. The demo UI reads this file; it is also valid input for `npm run ingest`.
-- WP-1.2 expands this to the ~15-25 doc corpus, including governing documents (declaration, Act references) so legal context can be cited instead of asserted.
+**Anchor messages** (cited by the demo agenda; their facts are load-bearing and must not drift):
+
+| Anchor | Message | Fact |
+| :--- | :--- | :--- |
+| `membrane-05` | Rideau Roofing, Apr 12 | $42,000 recoat quote, no structural concerns |
+| `membrane-06` | Capital Membrane, Apr 18 | $51,000 quote, possible slab deterioration, recommends engineer |
+| `noise511-06` | Unit 504, Apr 3 | Fourth complaint since February, suspects short-term rental |
+| `reserve-02` | Cardinal Engineering, Apr 7 | Study three years old, update due, $6,800 renewal offer |
+| `arrears-04` | Accounts ledger, Apr 30 | Units 312 + 808, 60+ days, $9,240, two missed notices |
+
+Still to come for WP-1.2 completion: governing documents (declaration excerpts, Act references) so legal context (the 30-day rental rule, response deadlines) can be cited instead of asserted.
