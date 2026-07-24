@@ -1,15 +1,14 @@
-// Deterministic demo data (the POC's cached-fallback mechanism, kept per
-// SALVAGE.md §3). Content REPAIRED against the citation invariant: the POC's
-// cached talking points carried uncited claims ($500k failure figure, ~15%
-// market-rate rise, a "tight lien window") and one outright hallucination
-// (recommending Cardinal Engineering for the structural review). Everything
-// below states only what the eight seed sources support. Legal context (the
-// 30-day rental rule, Act deadlines) returns with the full WP-1.2 corpus,
-// cited to governing documents.
-import seedThreadsJson from '../../../fixtures/maple-court/seed-threads.json';
+// Deterministic demo data over the generated Maple Court corpus
+// (fixtures/maple-court/corpus.json: 47 fictional messages, Feb-Apr 2026,
+// five decision storylines plus routine noise; supersedes the POC seed).
+// The cached agenda items state only what the corpus's cited anchor
+// messages support; the coverage test in demoSeed.test.ts enforces this.
+// Legal context (the 30-day rental rule, Act deadlines) arrives when the
+// corpus grows governing documents to cite.
+import corpusJson from '../../../fixtures/maple-court/corpus.json';
 import type { AgendaItem, Thread } from '../types';
 
-export const seedThreads: Thread[] = seedThreadsJson;
+export const seedThreads: Thread[] = corpusJson;
 
 export const cachedAgendaItems: AgendaItem[] = [
   {
@@ -19,8 +18,8 @@ export const cachedAgendaItems: AgendaItem[] = [
     background:
       'Two contractors inspected the P1 garage membrane after the March leak. Rideau Roofing quoted $42,000 for a standard recoat with no structural concerns noted. Capital Membrane quoted $51,000 and noted staining consistent with possible slab deterioration beneath, recommending a structural engineer confirm before any recoat.',
     citations: [
-      { sourceId: 't1', source: 'Rideau Roofing', date: 'Apr 12' },
-      { sourceId: 't2', source: 'Capital Membrane', date: 'Apr 18' },
+      { sourceId: 'membrane-05', source: 'Rideau Roofing', date: 'Apr 12' },
+      { sourceId: 'membrane-06', source: 'Capital Membrane', date: 'Apr 18' },
     ],
     needsEngineer: true,
     options: [
@@ -56,7 +55,7 @@ export const cachedAgendaItems: AgendaItem[] = [
     decisionHeadline: 'Decide how to respond to the recurring noise complaint at Unit 511',
     background:
       'The owner of Unit 504 has complained four times since February about late-night noise and constant turnover at Unit 511, and suspects it is being used as a short-term rental.',
-    citations: [{ sourceId: 't3', source: 'Unit 504', date: 'Apr 3' }],
+    citations: [{ sourceId: 'noise511-06', source: 'Unit 504', date: 'Apr 3' }],
     needsEngineer: false,
     options: [
       {
@@ -91,7 +90,7 @@ export const cachedAgendaItems: AgendaItem[] = [
     decisionHeadline: "Commission this fiscal year's reserve fund study update",
     background:
       'Cardinal Engineering advises the reserve fund study is three years old and an update is due this fiscal year. They have offered to renew at last cycle’s rate of $6,800.',
-    citations: [{ sourceId: 't4', source: 'Cardinal Eng.', date: 'Apr 7' }],
+    citations: [{ sourceId: 'reserve-02', source: 'Cardinal Eng.', date: 'Apr 7' }],
     needsEngineer: false,
     options: [
       {
@@ -119,7 +118,7 @@ export const cachedAgendaItems: AgendaItem[] = [
     decisionHeadline: 'Set a policy for owner EV charger installations',
     background:
       'The owner of Unit 210 has requested approval to install a Level 2 charger in their parking space and asked for the required forms or process. The corporation has no EV policy on file in this corpus.',
-    citations: [{ sourceId: 't5', source: 'Unit 210', date: 'Apr 9' }],
+    citations: [{ sourceId: 'ev210-03', source: 'Unit 210', date: 'Apr 9' }],
     needsEngineer: false,
     options: [
       {
@@ -154,7 +153,7 @@ export const cachedAgendaItems: AgendaItem[] = [
     decisionHeadline: 'Determine next steps on two units 60+ days in arrears',
     background:
       'Units 312 and 808 are each more than 60 days past due on common expenses, totalling $9,240, and have missed two consecutive notices.',
-    citations: [{ sourceId: 't6', source: 'Accounts ledger', date: 'Apr 30' }],
+    citations: [{ sourceId: 'arrears-04', source: 'Accounts ledger', date: 'Apr 30' }],
     needsEngineer: false,
     options: [
       {

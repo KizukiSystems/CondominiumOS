@@ -64,7 +64,8 @@ export default function App() {
       {view === 'pack' && activePack && (
         <Agenda
           doc={activePack}
-          sourceCount={seedThreads.length}
+          messageCount={seedThreads.length}
+          threadCount={new Set(seedThreads.map((t) => t.threadId ?? t.id)).size}
           onBack={() => setView('documents')}
           onOpenCitation={setActiveSourceId}
           onUpdateItem={handleUpdateItem}

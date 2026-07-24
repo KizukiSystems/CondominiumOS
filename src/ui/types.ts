@@ -7,7 +7,10 @@
 
 export interface Thread {
   id: string;
+  /** Groups messages into conversations in the corpus. */
+  threadId?: string;
   sender: string;
+  to?: string;
   date: string;
   subject: string;
   body: string;

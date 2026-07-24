@@ -24,7 +24,7 @@ Work packages (WPs) sized so each is one Claude Code session / one PR. Detailed 
 - **Done when:** repo installs and runs clean from cold; lint/typecheck pass; `data/` and `.env` verified gitignored
 
 ### WP-1.2 · Fictional Maple Court corpus
-- **Lane:** A · **Depends on:** WP-1.1
+- **Lane:** A · **Depends on:** WP-1.1 · **Status:** `[corpus v1 committed 2026-07-23]` — started a day ahead of the gate on Tets's direction ("start fresh, generate our own messy email stuff"). `fixtures/maple-court/corpus.json`: 47 messages / 17 threads over Feb-Apr 2026, five anchor storylines + ~45% routine noise, supersedes the POC seed. Remaining for done: governing documents so legal context is citable; retarget if Friday names a different wedge
 - **Tasks:** author ~15-25 fictional source docs as fixtures (emails, a prior-minutes doc, a reserve-study notice) that ground the Design Kit's five agenda items: (1) garage membrane repair, two quotes $42k/$51k, one flags a possible structural issue → "recommend engineer" flag; (2) noise / suspected short-term rental (Unit 504 re: 511); (3) reserve fund study due this fiscal year; (4) EV charger request (Unit 210), no policy yet; (5) arrears, two units 60+ days. Every fixture is plainly fictional; no real names, buildings, or Corporation 94 details
 - **Done when:** each of the five agenda items is fully derivable from fixtures alone, with enough distractor emails that classification is non-trivial
 
