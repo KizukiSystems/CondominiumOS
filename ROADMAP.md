@@ -45,7 +45,7 @@ Move -1 → 0 only when all three hold:
 | Milestone | Lane | Substance | Done when |
 | :--- | :--- | :--- | :--- |
 | **M0 — Salvage Pass** (MET-008) | A | Read the AI Studio POC tree; sort into good-bones / hallucination-or-junk / already-superseded; produce `SALVAGE.md` with keep/rewrite/discard verdicts + a stack recommendation | `SALVAGE.md` exists and Tets has disposed on the verdicts |
-| **M1 — Demo build** | A | Repo scaffold; fictional Maple Court corpus (~15-25 docs); pipeline ingest → classify → cluster → generate pack → render; single hero screen per the Design Kit | From `npm run demo`, a cold user gets the 5-item Maple Court agenda in the browser; every claim carries a working citation chip; regeneration deterministic enough to demo live |
+| **M1 — Demo build** | A | Repo scaffold; fictional Maple Court corpus (140 docs after the 2026-07-24 merge; see WP-1.2); pipeline ingest → classify → cluster → generate pack → render; single hero screen per the Design Kit | From `npm run demo`, a cold user gets the 5-item Maple Court agenda in the browser; every claim carries a working citation chip; regeneration deterministic enough to demo live |
 | **M2 — Pilot ingest** | **B (gated)** | Manual file-drop ingest of real Corporation 94 material (never account access); redaction per §6; run log; side-by-side "his prep vs generated prep" view | One real board-prep pack generated, reviewed by Isaac, edit-rate captured |
 | **M3 — Feedback loop** | B (gated) | Capture Isaac's edits as structured diffs; measure citation coverage, edit rate, time-to-prep vs his baseline | Two consecutive real packs with metrics logged |
 

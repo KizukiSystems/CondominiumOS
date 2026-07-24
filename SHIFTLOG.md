@@ -23,6 +23,28 @@ Per-session record for shift-start reconciliation (MET-009) and lineage. Every w
 
 ---
 
+## Shift 008 — 2026-07-24 · Claude Code (branch `claude/morning-work-review-vatsg0`, second session of the day)
+
+- **Scope requested:** reorientation ("did the morning work land?"), then Tets's directive on the WP-1.2 fork: merge the two corpora AND the canon text, with the PR diff as the tracked-changes redline he reviews. Two rulings taken in session: (1) anchor facts win, mock-database copy is edited where it contradicts the six cited anchors, every edit enumerated; (2) the container plan stays, the merged fixture is a one-time port and Notion remains source of truth for the mock-database rows.
+- **Work completed** `[grounded — verified this session, hashes from git log]`:
+  - Reorientation: morning branch merged with main via `8c3020c` (original Shift 007 hashes preserved for MET-009), morning session renumbered to Shift 007 in `3830ac2` (005/006 were taken by the 2026-07-23 main-branch session), PR #1 opened.
+  - `f81a138` `scripts/merge-corpus.ts` + `npm run corpus:merge`: conversion (ids `t-1001-1`, sender display mapping, To+CC folding, date style, dash/quote normalization), enumerated editorial layer, deterministic sort, label sidecar, integrity checks (corpus v1 sha, anchors, `.example` domains, CMG, normalization).
+  - `c853421` stage 1: 93 mock-database messages converted from a manifest-verified Notion export (93 rows, lengths byte-checked) and appended verbatim after corpus v1.
+  - `edbbe9d` stage 2, editorial (all edits in the script's tables): persona renames to the v1 cast (Ari N.→Dana Whitfield, R. K.→Priya Raman, Jordan Pike→Gord Belanger, Samir V.→Sylvie Tran, Leila Chen→Marc Aubin, Noor→Sam, M.→Helen); vendor unification (Skyline→Vertex, GreenPath→GreenScape, cardinalengineering→cardinaleng.example); storyline weave: arrears notices re-dated to Mar 15 / Apr 14 per `arrears-04`, noise complaints re-slotted into the four-complaint timeline per `noise511-04/-06`, membrane triage re-dated to the Mar 9 spot-41 first report, EV stall corrected to P2-14, duplicate quote/renewal deliveries turned into same-day companions, the board chair's engineer-first directive softened to a leaning so the May-meeting decision stays open, Unit 808 ledger arithmetic reconciled, one stray Korean token removed.
+  - `75de218` stage 3: re-sort newest→oldest (pure move). `c7ae3ff` `labels.json` (93 keys, 28 needs-decision, 13 tags). `6a10a59` fixture README (provenance, cast, conventions, anchor table gains the missing `ev210-03` row) + demoSeed comment.
+  - Verified: script checks green (140 messages, 50 threads, v1 sha intact), typecheck, 24/24 tests, lint, format:check, production build. Folder-level ingest smoke now yields 141 documents (140 corpus entries re-slugged as `corpus-N`, plus README.md) and 1 expected warning (`labels.json` has no body); this supersedes Shift 007's "0 warnings" expectation, which was against a corpus-only drop folder.
+- **Decisions proposed vs ratified:**
+  - Ratified in session (Tets): the merge itself; anchor-facts-win; container plan retained.
+  - Proposed via the PR `[open — Tets merges to ratify]`: the committed conversion script + npm alias (rule 4); CC folded into `to` (vs dropping); vendor unification (one elevator contractor, one landscaper); the softened `t-1024-1` directive; WP-1.2 resequencing amendment (port landed ahead of the container).
+- **Discoveries / flags:**
+  - The ingest `.json` reader ignores explicit `id`/`threadId` fields (slugs from file paths), so `labels.json` only lines up under direct import or the future container. WP-1.3 precondition; not changed in this PR (rule 4).
+  - The mock database's corpus runs to May 15, one week past the demo's May 8 meeting date. Accepted: the inbox is live, the pack is a prep artifact `[open — flag if it reads wrong in the demo]`.
+  - The cached demo agenda was NOT extended with post-Apr-30 developments (Unit 312's payment-plan request `t-1032-1`, the EV feasibility approval `t-1022-3`). The agenda is a pinned WP-1.3-era artifact; extending it is live-pipeline territory `[open]`.
+- **Open items and blockers:** gate meeting outcome still pending (ROADMAP §2 untouched); container design and build with Tets; governing documents for WP-1.2 done-when.
+- **Next-shift pointers:**
+  1. WP-1.3 can start once the gate lands: triage report + eval harness have their ground truth in `labels.json`; solve ingest id-passthrough (or consume via import/container) first.
+  2. On the container landing: move `corpus.json` behind it per the WP-1.2 amendment.
+
 ## Session close — 2026-07-24 · Claude Code · summary of Shift 007 + addendum (one conversation)
 
 Written at Tets's request as the reconciliation point for the next shift. Detail lives in the Shift 007 entry and addendum below; this entry is the map. All claims verified against `git log` and a final test run (24/24 passing) `[grounded]`.
